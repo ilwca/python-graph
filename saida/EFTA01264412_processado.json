@@ -1,0 +1,12 @@
+```json
+[
+  {
+    "subject": "AT&T",
+    "predicate": "CONNECTED_TO",
+    "object": "SDNY",
+    "subject_type": "Empresa",
+    "object_type": "Instituição",
+    "confidence": 0.90
+  }
+]
+```

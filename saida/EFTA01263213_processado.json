@@ -1,0 +1,194 @@
+[
+  {
+    "subject": "U.S. Customs and Border Protection",
+    "predicate": "PART_OF",
+    "object": "U.S. Department of Homeland Security",
+    "subject_type": "Organização",
+    "object_type": "Organização",
+    "confidence": 0.99
+  },
+  {
+    "subject": "U.S. Customs and Border Protection",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "TECS-Person Encounter List",
+    "subject_type": "Organização",
+    "object_type": "Documento",
+    "confidence": 0.98
+  },
+  {
+    "subject": "TECS-Person Encounter List",
+    "predicate": "RELATED_TO",
+    "object": "Ghislaine Maxwell",
+    "subject_type": "Documento",
+    "object_type": "Pessoa",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Londres",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Boston",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Nova York",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Miami",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Paris",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Los Angeles",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Tóquio",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Doha",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Montreal",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Sint Maarten",
+    "subject_type": "Pessoa",
+    "object_type": "Local",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "West Palm Beach",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Teterboro",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Ottawa",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Veneza",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Rio de Janeiro",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Hong Kong",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Barbados",
+    "subject_type": "Pessoa",
+    "object_type": "País",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Ilhas Virgens Britânicas",
+    "subject_type": "Pessoa",
+    "object_type": "País",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Nice",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Tel Aviv",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Amã",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  }
+]

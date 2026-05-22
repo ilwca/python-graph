@@ -1,0 +1,32 @@
+[
+  {
+    "reason": "blocked_entity: 'Ele'",
+    "subject": "Ele",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Ela",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.91,
+    "source_file": "EFTA_TEST.json"
+  },
+  {
+    "reason": "invalid_predicate: INVENTED_PREDICATE",
+    "subject": "Jeffrey Epstein",
+    "predicate": "INVENTED_PREDICATE",
+    "object": "Something",
+    "subject_type": "Pessoa",
+    "object_type": "Outro",
+    "confidence": 0.8,
+    "source_file": "EFTA_TEST.json"
+  },
+  {
+    "reason": "low_confidence=0.55",
+    "subject": "Jeffrey Epstein",
+    "predicate": "ACCUSED_OF",
+    "object": "Tráfico Sexual",
+    "subject_type": "Pessoa",
+    "object_type": "Evento",
+    "confidence": 0.55,
+    "source_file": "EFTA_TEST.json"
+  }
+]

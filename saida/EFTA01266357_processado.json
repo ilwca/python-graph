@@ -1,0 +1,82 @@
+[
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "FOUNDED",
+    "object": "The Jeffrey E. Epstein 2001 Trust Two",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Darren K. Indyke",
+    "predicate": "MANAGES",
+    "object": "The Jeffrey E. Epstein 2001 Trust Two",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Andrew Farkas",
+    "predicate": "MANAGES",
+    "object": "The Jeffrey E. Epstein 2001 Trust Two",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Jeffrey A. Schantz",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "The Jeffrey E. Epstein 2001 Trust Two",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Jes Staley",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "The Jeffrey E. Epstein 2001 Trust Two",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.85
+  },
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Original Trust Agreement",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Amended and Restated Trust Agreement",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Original Trust Agreement",
+    "predicate": "RELATED_TO",
+    "object": "The Jeffrey E. Epstein 2001 Trust Two",
+    "subject_type": "Documento",
+    "object_type": "Instituição",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Amended and Restated Trust Agreement",
+    "predicate": "RELATED_TO",
+    "object": "The Jeffrey E. Epstein 2001 Trust Two",
+    "subject_type": "Documento",
+    "object_type": "Instituição",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Harry I. Beller",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Nova York",
+    "subject_type": "Pessoa",
+    "object_type": "Local",
+    "confidence": 0.90
+  }
+]

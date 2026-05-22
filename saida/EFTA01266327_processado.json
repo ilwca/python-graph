@@ -1,0 +1,60 @@
+```json
+[
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "FOUNDED",
+    "object": "JEFFREY E. EPSTEIN 2001 TRUST ONE",
+    "subject_type": "Pessoa",
+    "object_type": "Operação Financeira",
+    "confidence": 0.95
+  },
+  {
+    "subject": "FOURTH AMENDMENT",
+    "predicate": "PART_OF",
+    "object": "JEFFREY E. EPSTEIN 2001 TRUST ONE",
+    "subject_type": "Documento",
+    "object_type": "Operação Financeira",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Darren K. Indyke",
+    "predicate": "MANAGES",
+    "object": "JEFFREY E. EPSTEIN 2001 TRUST ONE",
+    "subject_type": "Pessoa",
+    "object_type": "Operação Financeira",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Joseph Pagano",
+    "predicate": "MANAGES",
+    "object": "JEFFREY E. EPSTEIN 2001 TRUST ONE",
+    "subject_type": "Pessoa",
+    "object_type": "Operação Financeira",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Lawrence Newman",
+    "predicate": "MANAGES",
+    "object": "JEFFREY E. EPSTEIN 2001 TRUST ONE",
+    "subject_type": "Pessoa",
+    "object_type": "Operação Financeira",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Lauren J. Kwintner",
+    "predicate": "WORKS_FOR",
+    "object": "Estado de Nova York",
+    "subject_type": "Pessoa",
+    "object_type": "Local",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Lauren J. Kwintner",
+    "predicate": "LOCATED_IN",
+    "object": "Condado de Nova York",
+    "subject_type": "Pessoa",
+    "object_type": "Local",
+    "confidence": 0.85
+  }
+]
+```

@@ -1,0 +1,28 @@
+```json
+[
+  {
+    "subject": "Citibank",
+    "predicate": "LOCATED_IN",
+    "object": "New York",
+    "subject_type": "Empresa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Grand Central Station",
+    "predicate": "LOCATED_IN",
+    "object": "New York",
+    "subject_type": "Local",
+    "object_type": "Cidade",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Citibank",
+    "predicate": "LOCATED_IN",
+    "object": "Grand Central Station",
+    "subject_type": "Empresa",
+    "object_type": "Local",
+    "confidence": 0.90
+  }
+]
+```

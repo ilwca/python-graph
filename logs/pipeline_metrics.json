@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-05-22T09:39:16.615074",
+  "files": {
+    "processed": 1,
+    "invalid": 0
+  },
+  "relations": {
+    "loaded": 8,
+    "discarded": {
+      "invalid_structure": 0,
+      "invalid_predicate": 1,
+      "low_confidence": 1,
+      "blocked_entity": 1,
+      "self_loops": 0,
+      "duplicates": 1
+    },
+    "aliases": {
+      "entity": 4,
+      "predicate": 1
+    },
+    "final": 4
+  },
+  "graph": {
+    "nodes": 4,
+    "edges": 4
+  },
+  "errors": []
+}

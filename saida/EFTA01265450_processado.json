@@ -1,0 +1,28 @@
+```json
+[
+  {
+    "subject": "Judith A. Gorham",
+    "predicate": "WORKS_FOR",
+    "object": "Delta Air Lines, Inc.",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Alex Rossmiller",
+    "predicate": "WORKS_FOR",
+    "object": "Procuradoria dos Estados Unidos",
+    "subject_type": "Pessoa",
+    "object_type": "Organização",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Delta Passport Group",
+    "predicate": "PART_OF",
+    "object": "Delta Air Lines, Inc.",
+    "subject_type": "Organização",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  }
+]
+```

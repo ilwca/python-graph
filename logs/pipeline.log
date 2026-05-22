@@ -1,0 +1,19 @@
+09:39:16 [INFO] Iniciando pipeline de Knowledge Graph
+09:39:16 [INFO] Fonte: /home/luca/Documentos/rc/convert-data/saida_json
+09:39:16 [DEBUG] [DESCARTADO] entidade bloqueada: 'Ele'
+09:39:16 [DEBUG] [DESCARTADO] predicado inválido: 'INVENTED_PREDICATE' em EFTA_TEST.json
+09:39:16 [INFO] ==================================================
+09:39:16 [INFO] MÉTRICAS FINAIS
+09:39:16 [INFO] ==================================================
+09:39:16 [INFO] Arquivos  : 1 processados / 0 inválidos
+09:39:16 [INFO] Relações  : 8 carregadas → 4 finais (4 descartadas)
+09:39:16 [INFO] Descartadas breakdown:
+09:39:16 [INFO]   estrutura inválida : 0
+09:39:16 [INFO]   predicado inválido : 1
+09:39:16 [INFO]   confidence baixa   : 1
+09:39:16 [INFO]   entidade bloqueada : 1
+09:39:16 [INFO]   self-loops         : 0
+09:39:16 [INFO]   duplicatas         : 1
+09:39:16 [INFO] Aliases   : 4 entidades / 1 predicados
+09:39:16 [INFO] Grafo     : 4 nós / 4 arestas
+09:39:16 [INFO] ==================================================

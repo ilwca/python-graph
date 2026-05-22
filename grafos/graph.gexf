@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-05-22">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="relations" type="string" />
+      <attribute id="3" title="confidence" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="entity_type" type="string" />
+      <attribute id="1" title="degree" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Jeffrey Epstein" label="Jeffrey Epstein">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="Ghislaine Maxwell" label="Ghislaine Maxwell">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Little Saint James" label="Little Saint James">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Bear Stearns" label="Bear Stearns">
+        <attvalues>
+          <attvalue for="0" value="Organização" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Jeffrey Epstein" target="Ghislaine Maxwell" id="0" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.97" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="Little Saint James" id="1" weight="1">
+        <attvalues>
+          <attvalue for="2" value="OWNS" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="Bear Stearns" id="2" weight="1">
+        <attvalues>
+          <attvalue for="2" value="WORKS_FOR" />
+          <attvalue for="3" value="0.85" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Jeffrey Epstein" id="3" weight="1">
+        <attvalues>
+          <attvalue for="2" value="WORKS_FOR" />
+          <attvalue for="3" value="0.88" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

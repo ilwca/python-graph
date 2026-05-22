@@ -1,0 +1,46 @@
+{
+  "nodes": [
+    {
+      "id": "Jeffrey Epstein",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Ghislaine Maxwell",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Little Saint James",
+      "entity_type": "Local"
+    },
+    {
+      "id": "Bear Stearns",
+      "entity_type": "Organização"
+    }
+  ],
+  "edges": [
+    {
+      "source": "EFTA_TEST.json",
+      "target": "Ghislaine Maxwell",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.97
+    },
+    {
+      "source": "EFTA_TEST.json",
+      "target": "Little Saint James",
+      "relation": "OWNS",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA_TEST.json",
+      "target": "Bear Stearns",
+      "relation": "WORKS_FOR",
+      "confidence": 0.85
+    },
+    {
+      "source": "EFTA_TEST.json",
+      "target": "Jeffrey Epstein",
+      "relation": "WORKS_FOR",
+      "confidence": 0.88
+    }
+  ]
+}

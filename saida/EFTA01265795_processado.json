@@ -1,0 +1,44 @@
+```json
+[
+  {
+    "subject": "SLK DESIGNS LLC",
+    "predicate": "LOCATED_IN",
+    "object": "Towson",
+    "subject_type": "Empresa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SLK DESIGNS LLC",
+    "predicate": "LOCATED_IN",
+    "object": "Maryland",
+    "subject_type": "Empresa",
+    "object_type": "Local",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Towson",
+    "predicate": "PART_OF",
+    "object": "Maryland",
+    "subject_type": "Cidade",
+    "object_type": "Local",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Maryland",
+    "predicate": "PART_OF",
+    "object": "Estados Unidos",
+    "subject_type": "Local",
+    "object_type": "País",
+    "confidence": 0.99
+  },
+  {
+    "subject": "SLK DESIGNS LLC",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "W17770853",
+    "subject_type": "Empresa",
+    "object_type": "Documento",
+    "confidence": 0.90
+  }
+]
+```

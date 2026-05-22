@@ -1,0 +1,60 @@
+```json
+[
+  {
+    "subject": "Experian",
+    "predicate": "LOCATED_IN",
+    "object": "Costa Mesa",
+    "subject_type": "Empresa",
+    "object_type": "Cidade",
+    "confidence": 1.0
+  },
+  {
+    "subject": "Costa Mesa",
+    "predicate": "LOCATED_IN",
+    "object": "Califórnia",
+    "subject_type": "Cidade",
+    "object_type": "Local",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Experian",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Relatório de Perfil de Crédito",
+    "subject_type": "Empresa",
+    "object_type": "Documento",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Associação da Indústria de Dados do Consumidor",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Guia de Recursos de Relatório de Crédito",
+    "subject_type": "Organização",
+    "object_type": "Documento",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Experian",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "FileOne",
+    "subject_type": "Empresa",
+    "object_type": "Documento",
+    "confidence": 0.9
+  },
+  {
+    "subject": "Relatório de Perfil de Crédito",
+    "predicate": "RELATED_TO",
+    "object": "Lei de Relatórios de Crédito Justos",
+    "subject_type": "Documento",
+    "object_type": "Documento",
+    "confidence": 0.9
+  },
+  {
+    "subject": "Relatório de Perfil de Crédito",
+    "predicate": "RELATED_TO",
+    "object": "Lei de Igualdade de Oportunidades de Crédito",
+    "subject_type": "Documento",
+    "object_type": "Documento",
+    "confidence": 0.9
+  }
+]
+```

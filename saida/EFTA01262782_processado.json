@@ -1,0 +1,34 @@
+[
+  {
+    "subject": "FBI",
+    "predicate": "INVESTIGATED",
+    "object": "Ghislaine Maxwell",
+    "subject_type": "Organização",
+    "object_type": "Pessoa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "França",
+    "subject_type": "Pessoa",
+    "object_type": "País",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Estados Unidos",
+    "subject_type": "Pessoa",
+    "object_type": "País",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "LOCATED_IN",
+    "object": "Bradford",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.85
+  }
+]

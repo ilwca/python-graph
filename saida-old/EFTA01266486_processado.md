@@ -1,0 +1,30 @@
+```json
+[
+  ["First Amendment", "é uma alteração de", "Jeffrey E. Epstein 2018 Trust"],
+  ["First Amendment", "datado em", "5 de outubro de 2018"],
+  ["First Amendment", "criado por", "Jeffrey E. Epstein"],
+  ["Jeffrey E. Epstein", "é o", "Grantor"],
+  ["First Amendment", "emenda o", "Trust Agreement"],
+  ["Trust Agreement", "é o acordo do", "Jeffrey E. Epstein 2018 Trust"],
+  ["Trust Agreement", "datado em", "Maio de 2018"],
+  ["Trust Agreement", "foi feito entre", "Jeffrey E. Epstein"],
+  ["Trust Agreement", "foi feito entre", "Darren K. Indyke"],
+  ["Trust Agreement", "foi feito entre", "Richard D. Kahn"],
+  ["Trust Agreement", "foi feito entre", "Katheryn H. Ruemmler"],
+  ["Darren K. Indyke", "é um dos", "Trustees"],
+  ["Richard D. Kahn", "é um dos", "Trustees"],
+  ["Katheryn H. Ruemmler", "é uma das", "Trustees"],
+  ["Jeffrey E. Epstein", "emenda o", "Trust Agreement"],
+  ["Artigo II, Seção 2.3, Parágrafo A do Trust Agreement", "é emendado para adicionar", "Cláusula 34"],
+  ["Karyna Shuliak", "é beneficiária de", "distribuição"],
+  ["Darren K. Indyke", "servirá como Trustee de", "Trust para Karyna Shuliak"],
+  ["Richard D. Kahn", "servirá como Trustee de", "Trust para Karyna Shuliak"],
+  ["Jeffrey E. Epstein", "executou", "First Amendment"],
+  ["First Amendment", "executado em", "11 de outubro de 2018"],
+  ["First Amendment", "foi subscrito e juramentado em", "5 de outubro de 2018"],
+  ["First Amendment", "foi subscrito e juramentado por", "Jeffrey E. Epstein"],
+  ["Daphne Wallace", "é", "Notária Pública"],
+  ["Comissão de Daphne Wallace", "expira em", "29 de dezembro de 2021"],
+  ["Daphne Wallace", "atua no", "Distrito de St. Thomas e St. John"]
+]
+```

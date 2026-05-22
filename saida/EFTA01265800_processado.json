@@ -1,0 +1,58 @@
+[
+  {
+    "subject": "Segurança Global e Investigações",
+    "predicate": "PART_OF",
+    "object": "MoneyGram Payment Systems Inc.",
+    "subject_type": "Organização",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "CT Corp",
+    "predicate": "REPRESENTS",
+    "object": "MoneyGram Payment Systems Inc.",
+    "subject_type": "Empresa",
+    "object_type": "Empresa",
+    "confidence": 0.98
+  },
+  {
+    "subject": "CT Corp",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Wolters Kluwer",
+    "subject_type": "Empresa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "MoneyGram Online",
+    "predicate": "PART_OF",
+    "object": "MoneyGram Payment Systems Inc.",
+    "subject_type": "Empresa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "MoneyGram Online",
+    "predicate": "LOCATED_IN",
+    "object": "Brooklyn Center",
+    "subject_type": "Empresa",
+    "object_type": "Cidade",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Brooklyn Center",
+    "predicate": "LOCATED_IN",
+    "object": "Minnesota",
+    "subject_type": "Cidade",
+    "object_type": "Local",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Minnesota",
+    "predicate": "LOCATED_IN",
+    "object": "Estados Unidos",
+    "subject_type": "Local",
+    "object_type": "País",
+    "confidence": 0.99
+  }
+]

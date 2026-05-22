@@ -1,0 +1,84 @@
+```json
+[
+  {
+    "subject": "Erika A. Kellerhals",
+    "predicate": "FOUNDED",
+    "object": "Nautilus, Inc.",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Gregory J. Ferguson",
+    "predicate": "FOUNDED",
+    "object": "Nautilus, Inc.",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Brett Geary",
+    "predicate": "FOUNDED",
+    "object": "Nautilus, Inc.",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Jeffrey Epstein",
+    "predicate": "WORKS_FOR",
+    "object": "Nautilus, Inc.",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Darren Indyke",
+    "predicate": "WORKS_FOR",
+    "object": "Nautilus, Inc.",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Richard Kahn",
+    "predicate": "WORKS_FOR",
+    "object": "Nautilus, Inc.",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Kellerhals Ferguson LLP",
+    "predicate": "REPRESENTS",
+    "object": "Nautilus, Inc.",
+    "subject_type": "Empresa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Business Basics VI LLC",
+    "predicate": "REPRESENTS",
+    "object": "Nautilus, Inc.",
+    "subject_type": "Empresa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Nautilus, Inc.",
+    "predicate": "LOCATED_IN",
+    "object": "St. Thomas",
+    "subject_type": "Empresa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Nautilus, Inc.",
+    "predicate": "LOCATED_IN",
+    "object": "Ilhas Virgens Americanas",
+    "subject_type": "Empresa",
+    "object_type": "País",
+    "confidence": 0.98
+  }
+]
+```

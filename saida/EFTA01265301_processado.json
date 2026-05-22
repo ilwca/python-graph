@@ -1,0 +1,20 @@
+```json
+[
+  {
+    "subject": "Sarah Kensington",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "SDNY_GM_00004166",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Sarah Kensington",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "EFTA_00118240",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.95
+  }
+]
+```

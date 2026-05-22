@@ -1,0 +1,204 @@
+```json
+[
+  {
+    "subject": "Alex Rossmiller",
+    "predicate": "WORKS_FOR",
+    "object": "Procuradoria dos Estados Unidos para o Distrito Sul de Nova York",
+    "subject_type": "Pessoa",
+    "object_type": "Organização",
+    "confidence": 0.97
+  },
+  {
+    "subject": "Geoffrey S. Berman",
+    "predicate": "WORKS_FOR",
+    "object": "Procuradoria dos Estados Unidos para o Distrito Sul de Nova York",
+    "subject_type": "Pessoa",
+    "object_type": "Organização",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Alex Rossmiller",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Solicitação de Pen Register e Trap-and-Trace",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.97
+  },
+  {
+    "subject": "Governo dos Estados Unidos",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Solicitação de Pen Register e Trap-and-Trace",
+    "subject_type": "Organização",
+    "object_type": "Documento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "T-Mobile",
+    "predicate": "MANAGES",
+    "object": "TERRAMARPROJECT",
+    "subject_type": "Empresa",
+    "object_type": "Organização",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Federal Bureau of Investigation (FBI)",
+    "predicate": "INVESTIGATED",
+    "object": "FNU LNU",
+    "subject_type": "Organização",
+    "object_type": "Pessoa",
+    "confidence": 0.97
+  },
+  {
+    "subject": "FNU LNU",
+    "predicate": "ACCUSED_OF",
+    "object": "21 U.S.C. § 1591",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Investigação Criminal do FBI",
+    "predicate": "RELATED_TO",
+    "object": "21 U.S.C. § 1591",
+    "subject_type": "Evento",
+    "object_type": "Documento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Solicitação de Pen Register e Trap-and-Trace",
+    "predicate": "RELATED_TO",
+    "object": "Investigação Criminal do FBI",
+    "subject_type": "Documento",
+    "object_type": "Evento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Governo dos Estados Unidos",
+    "predicate": "COMMUNICATED_WITH",
+    "object": "Corte do Distrito Sul de Nova York",
+    "subject_type": "Organização",
+    "object_type": "Instituição",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Federal Bureau of Investigation (FBI)",
+    "predicate": "FINANCED",
+    "object": "T-Mobile",
+    "subject_type": "Organização",
+    "object_type": "Empresa",
+    "confidence": 0.97
+  },
+  {
+    "subject": "T-Mobile",
+    "predicate": "COMMUNICATED_WITH",
+    "object": "Federal Bureau of Investigation (FBI)",
+    "subject_type": "Empresa",
+    "object_type": "Organização",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Cartório da Corte",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Solicitação de Pen Register e Trap-and-Trace",
+    "subject_type": "Organização",
+    "object_type": "Documento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Procuradoria dos Estados Unidos para o Distrito Sul de Nova York",
+    "predicate": "LOCATED_IN",
+    "object": "Nova York",
+    "subject_type": "Organização",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Corte do Distrito Sul de Nova York",
+    "predicate": "LOCATED_IN",
+    "object": "Nova York",
+    "subject_type": "Instituição",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Stewart D. Aaron",
+    "predicate": "WORKS_FOR",
+    "object": "Corte do Distrito Sul de Nova York",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.97
+  },
+  {
+    "subject": "Federal Bureau of Investigation (FBI)",
+    "predicate": "CONNECTED_TO",
+    "object": "T-Mobile",
+    "subject_type": "Organização",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "T-Mobile",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Instalação e Uso de Pen Register e Trap-and-Trace",
+    "subject_type": "Empresa",
+    "object_type": "Evento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Solicitação de Pen Register e Trap-and-Trace",
+    "predicate": "RELATED_TO",
+    "object": "18 U.S.C. § 3123",
+    "subject_type": "Documento",
+    "object_type": "Documento",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Solicitação de Pen Register e Trap-and-Trace",
+    "predicate": "RELATED_TO",
+    "object": "18 U.S.C. § 3123(a)(1)",
+    "subject_type": "Documento",
+    "object_type": "Documento",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Solicitação de Pen Register e Trap-and-Trace",
+    "predicate": "RELATED_TO",
+    "object": "18 U.S.C. §§ 3123(b)(2) e 3124(a)-(b)",
+    "subject_type": "Documento",
+    "object_type": "Documento",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Solicitação de Pen Register e Trap-and-Trace",
+    "predicate": "RELATED_TO",
+    "object": "18 U.S.C. § 3124(c)",
+    "subject_type": "Documento",
+    "object_type": "Documento",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Solicitação de Pen Register e Trap-and-Trace",
+    "predicate": "RELATED_TO",
+    "object": "18 U.S.C. § 3123(d)",
+    "subject_type": "Documento",
+    "object_type": "Documento",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Solicitação de Pen Register e Trap-and-Trace",
+    "predicate": "RELATED_TO",
+    "object": "18 U.S.C. §§ 3121-26",
+    "subject_type": "Documento",
+    "object_type": "Documento",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Instalação e Uso de Pen Register e Trap-and-Trace",
+    "predicate": "RELATED_TO",
+    "object": "TERRAMARPROJECT",
+    "subject_type": "Evento",
+    "object_type": "Organização",
+    "confidence": 0.95
+  }
+]
+```

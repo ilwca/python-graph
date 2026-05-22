@@ -1,0 +1,132 @@
+```json
+[
+  {
+    "subject": "Mark Lubin",
+    "predicate": "WORKS_FOR",
+    "object": "FBI",
+    "subject_type": "Pessoa",
+    "object_type": "Organização",
+    "confidence": 0.99
+  },
+  {
+    "subject": "FBI",
+    "predicate": "LOCATED_IN",
+    "object": "Nova York",
+    "subject_type": "Organização",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "FBI",
+    "predicate": "INVESTIGATED",
+    "object": "Jeffrey Epstein",
+    "subject_type": "Organização",
+    "object_type": "Pessoa",
+    "confidence": 0.90
+  },
+  {
+    "subject": "FBI",
+    "predicate": "INVESTIGATED",
+    "object": "LSJE, LLC",
+    "subject_type": "Organização",
+    "object_type": "Empresa",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Jeffrey Epstein",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "LSJE, LLC",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Daphne Wallace",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "LSJE, LLC",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Daphne Wallace",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Jeffrey Epstein",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Jeffrey Epstein",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Southern Trust Company Inc.",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.92
+  },
+  {
+    "subject": "Jeffrey Epstein",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "American Express",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Jeffrey Epstein",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Chase Paynet",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "LSJE, LLC",
+    "predicate": "LOCATED_IN",
+    "object": "Palm Beach",
+    "subject_type": "Empresa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "LSJE, LLC",
+    "predicate": "LOCATED_IN",
+    "object": "St. Thomas",
+    "subject_type": "Empresa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "LSJE, LLC",
+    "predicate": "LOCATED_IN",
+    "object": "Nova York",
+    "subject_type": "Empresa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Palm Beach",
+    "predicate": "PART_OF",
+    "object": "Estados Unidos",
+    "subject_type": "Cidade",
+    "object_type": "País",
+    "confidence": 0.99
+  },
+  {
+    "subject": "St. Thomas",
+    "predicate": "PART_OF",
+    "object": "Estados Unidos",
+    "subject_type": "Cidade",
+    "object_type": "País",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Nova York",
+    "predicate": "PART_OF",
+    "object": "Estados Unidos",
+    "subject_type": "Cidade",
+    "object_type": "País",
+    "confidence": 0.99
+  }
+]
+```

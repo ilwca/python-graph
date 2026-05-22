@@ -1,0 +1,84 @@
+```json
+[
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "LOCATED_IN",
+    "object": "St. Thomas",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "St. Thomas",
+    "predicate": "PART_OF",
+    "object": "Ilhas Virgens dos Estados Unidos",
+    "subject_type": "Cidade",
+    "object_type": "País",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "FOUNDED",
+    "object": "The Jeffrey E. Epstein 2019 Trust",
+    "subject_type": "Pessoa",
+    "object_type": "Organização",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Darren K. Indyke",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Testamento de Jeffrey E. Epstein",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Richard D. Kahn",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Testamento de Jeffrey E. Epstein",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Kathryn H. Ruemmler",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Testamento de Jeffrey E. Epstein",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Darren K. Indyke",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Jeffrey E. Epstein",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Richard D. Kahn",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Jeffrey E. Epstein",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Kathryn H. Ruemmler",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Jeffrey E. Epstein",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Carluiz Toylo",
+    "predicate": "PARTICIPATED_IN",
+    "object": "Testamento de Jeffrey E. Epstein",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.90
+  }
+]
+```

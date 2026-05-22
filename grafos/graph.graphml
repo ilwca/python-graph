@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d3" for="edge" attr.name="source" attr.type="string" />
+  <key id="d2" for="edge" attr.name="confidence" attr.type="string" />
+  <key id="d1" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Jeffrey Epstein">
+      <data key="d0">Pessoa</data>
+    </node>
+    <node id="Ghislaine Maxwell">
+      <data key="d0">Pessoa</data>
+    </node>
+    <node id="Little Saint James">
+      <data key="d0">Local</data>
+    </node>
+    <node id="Bear Stearns">
+      <data key="d0">Organização</data>
+    </node>
+    <edge source="Jeffrey Epstein" target="Ghislaine Maxwell">
+      <data key="d1">ASSOCIATED_WITH</data>
+      <data key="d2">0.97</data>
+      <data key="d3">EFTA_TEST.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="Little Saint James">
+      <data key="d1">OWNS</data>
+      <data key="d2">0.95</data>
+      <data key="d3">EFTA_TEST.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="Bear Stearns">
+      <data key="d1">WORKS_FOR</data>
+      <data key="d2">0.85</data>
+      <data key="d3">EFTA_TEST.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Jeffrey Epstein">
+      <data key="d1">WORKS_FOR</data>
+      <data key="d2">0.88</data>
+      <data key="d3">EFTA_TEST.json</data>
+    </edge>
+  </graph>
+</graphml>

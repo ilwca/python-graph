@@ -1,0 +1,66 @@
+[
+  {
+    "subject": "SLK Designs LLC",
+    "predicate": "LOCATED_IN",
+    "object": "Nova York",
+    "subject_type": "Empresa",
+    "object_type": "Cidade",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Jeffrey Epstein",
+    "predicate": "TRANSFERRED_MONEY_TO",
+    "object": "SLK Designs LLC",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.99
+  },
+  {
+    "subject": "SLK Designs LLC",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Citibank, N.A.",
+    "subject_type": "Empresa",
+    "object_type": "Instituição",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Citibank, N.A.",
+    "predicate": "PART_OF",
+    "object": "Citigroup Inc.",
+    "subject_type": "Instituição",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SLK Designs LLC",
+    "predicate": "TRANSFERRED_MONEY_TO",
+    "object": "ADP",
+    "subject_type": "Empresa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SLK Designs LLC",
+    "predicate": "TRANSFERRED_MONEY_TO",
+    "object": "Oxford Health",
+    "subject_type": "Empresa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SLK Designs LLC",
+    "predicate": "TRANSFERRED_MONEY_TO",
+    "object": "The Hartford",
+    "subject_type": "Empresa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SLK Designs LLC",
+    "predicate": "TRANSFERRED_MONEY_TO",
+    "object": "CT Corporation",
+    "subject_type": "Empresa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  }
+]

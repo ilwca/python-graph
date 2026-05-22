@@ -1,0 +1,20 @@
+[
+  ["Liel V. Haas", "é cidadão dos", "Estados Unidos"],
+  ["Liel V. Haas", "é", "guardião de registros"],
+  ["Liel V. Haas", "recebeu", "Intimação do Grande Júri"],
+  ["Liel V. Haas", "assinou", "Declaração de Guardião de Registros"],
+  ["Declaração de Guardião de Registros", "foi executada em", "27 de agosto de 2019"],
+  ["Maurene Comey", "é", "Procuradora Assistente dos Estados Unidos"],
+  ["Maurene Comey", "assinou", "Intimação do Grande Júri"],
+  ["Intimação do Grande Júri", "tem data de", "16 de agosto de 2019"],
+  ["Ghislaine Maxwell", "nasceu em", "25 de dezembro de 1961"],
+  ["Ghislaine Maxwell", "morou em", "Boston"],
+  ["Ghislaine Maxwell", "morou em", "Nova York"],
+  ["Ghislaine Maxwell", "morou em", "Teaneck"],
+  ["Ghislaine Maxwell", "trabalhou para", "J Epstein and Company"],
+  ["Ghislaine Maxwell", "teve conta no", "Bank of America"],
+  ["Ghislaine Maxwell", "teve conta no", "UBS Bank USA"],
+  ["Ghislaine Maxwell", "teve conta na", "AMEX"],
+  ["Ghislaine Maxwell", "teve conta no", "USAA Savings Bank"],
+  ["Experian", "está localizada em", "Allen, Texas"]
+]

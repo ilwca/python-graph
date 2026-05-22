@@ -1,0 +1,308 @@
+```json
+[
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "FOUNDED",
+    "object": "The Jeffrey E. Epstein 2019 Trust",
+    "subject_type": "Pessoa",
+    "object_type": "Organização",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Darren K. Indyke",
+    "predicate": "MANAGES",
+    "object": "The Jeffrey E. Epstein 2019 Trust",
+    "subject_type": "Pessoa",
+    "object_type": "Organização",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Richard D. Kahn",
+    "predicate": "MANAGES",
+    "object": "The Jeffrey E. Epstein 2019 Trust",
+    "subject_type": "Pessoa",
+    "object_type": "Organização",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Darren K. Indyke",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Richard D. Kahn",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "The Jeffrey E. Epstein 2019 Trust",
+    "predicate": "OWNS",
+    "object": "FT Real Estate, Inc.",
+    "subject_type": "Organização",
+    "object_type": "Empresa",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "OWNS",
+    "object": "Southern Financial, LLC",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "OWNS",
+    "object": "Cypress, Inc.",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "OWNS",
+    "object": "Nautilus, Inc.",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "OWNS",
+    "object": "Poplar, Inc.",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Poplar, Inc.",
+    "predicate": "OWNS",
+    "object": "Great St. Jim, LLC",
+    "subject_type": "Empresa",
+    "object_type": "Empresa",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "OWNS",
+    "object": "SCI JEP",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "OWNS",
+    "object": "Laurel, Inc.",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "OWNS",
+    "object": "Maple, Inc.",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "OWNS",
+    "object": "Lyn & Jojo, LLC",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Darren K. Indyke",
+    "predicate": "REPRESENTS",
+    "object": "Lyn & Jojo, LLC",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Darren K. Indyke",
+    "predicate": "OWNS",
+    "object": "Harlequin Dane, LLC",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Richard D. Kahn",
+    "predicate": "OWNS",
+    "object": "Coatue Enterprises, LLC",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Richard D. Kahn",
+    "predicate": "RELATED_TO",
+    "object": "Lisa Kahn",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Paul Barrett",
+    "predicate": "OWNS",
+    "object": "Osborne Lane Capital, LLC",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Cypress, Inc.",
+    "predicate": "OWNS",
+    "object": "Zorro Ranch",
+    "subject_type": "Empresa",
+    "object_type": "Local",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Nautilus, Inc.",
+    "predicate": "OWNS",
+    "object": "Little St. James",
+    "subject_type": "Empresa",
+    "object_type": "Local",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Great St. Jim, LLC",
+    "predicate": "OWNS",
+    "object": "Great St. James",
+    "subject_type": "Empresa",
+    "object_type": "Local",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Laurel, Inc.",
+    "predicate": "OWNS",
+    "object": "358 El Brillo Way",
+    "subject_type": "Empresa",
+    "object_type": "Local",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Maple, Inc.",
+    "predicate": "OWNS",
+    "object": "9 E. 71st Street",
+    "subject_type": "Empresa",
+    "object_type": "Local",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Lyn & Jojo, LLC",
+    "predicate": "OWNS",
+    "object": "18 Teneyck Avenue",
+    "subject_type": "Empresa",
+    "object_type": "Local",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Zorro Ranch",
+    "predicate": "LOCATED_IN",
+    "object": "Stanley",
+    "subject_type": "Local",
+    "object_type": "Cidade",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Stanley",
+    "predicate": "LOCATED_IN",
+    "object": "Novo México",
+    "subject_type": "Cidade",
+    "object_type": "Local",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Little St. James",
+    "predicate": "LOCATED_IN",
+    "object": "Ilhas Virgens Americanas",
+    "subject_type": "Local",
+    "object_type": "Local",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Great St. James",
+    "predicate": "LOCATED_IN",
+    "object": "Ilhas Virgens Americanas",
+    "subject_type": "Local",
+    "object_type": "Local",
+    "confidence": 0.99
+  },
+  {
+    "subject": "358 El Brillo Way",
+    "predicate": "LOCATED_IN",
+    "object": "Palm Beach",
+    "subject_type": "Local",
+    "object_type": "Cidade",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Palm Beach",
+    "predicate": "LOCATED_IN",
+    "object": "Flórida",
+    "subject_type": "Cidade",
+    "object_type": "Local",
+    "confidence": 0.99
+  },
+  {
+    "subject": "9 E. 71st Street",
+    "predicate": "LOCATED_IN",
+    "object": "Nova York",
+    "subject_type": "Local",
+    "object_type": "Cidade",
+    "confidence": 0.99
+  },
+  {
+    "subject": "18 Teneyck Avenue",
+    "predicate": "LOCATED_IN",
+    "object": "Valley Stream",
+    "subject_type": "Local",
+    "object_type": "Cidade",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Valley Stream",
+    "predicate": "LOCATED_IN",
+    "object": "Estado de Nova York",
+    "subject_type": "Cidade",
+    "object_type": "Local",
+    "confidence": 0.99
+  },
+  {
+    "subject": "22 Avenue Foch",
+    "predicate": "LOCATED_IN",
+    "object": "Paris",
+    "subject_type": "Local",
+    "object_type": "Cidade",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Paris",
+    "predicate": "LOCATED_IN",
+    "object": "França",
+    "subject_type": "Cidade",
+    "object_type": "País",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Katheryn Ruemmler",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "The Jeffrey E. Epstein 2019 Trust",
+    "subject_type": "Pessoa",
+    "object_type": "Organização",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Eva Andersson Dubin",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "The Jeffrey E. Epstein 2019 Trust",
+    "subject_type": "Pessoa",
+    "object_type": "Organização",
+    "confidence": 0.90
+  }
+]
+```

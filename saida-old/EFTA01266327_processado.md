@@ -1,0 +1,30 @@
+```json
+[
+  ["Jeffrey E. Epstein", "é o instituidor de", "THE JEFFREY E. EPSTEIN 2001 TRUST ONE"],
+  ["Jeffrey E. Epstein", "tem poder para alterar", "THE JEFFREY E. EPSTEIN 2001 TRUST ONE"],
+  ["O poder de alterar o trust", "é concedido por", "Artigo Quinze do trust"],
+  ["Jeffrey E. Epstein", "alterou o trust em", "27 de junho de 2003"],
+  ["Jeffrey E. Epstein", "alterou o trust em", "3 de dezembro de 2004"],
+  ["Jeffrey E. Epstein", "alterou o trust em", "6 de fevereiro de 2006"],
+  ["Jeffrey E. Epstein", "fez", "a Quarta Alteração"],
+  ["A Quarta Alteração", "altera", "THE JEFFREY E. EPSTEIN 2001 TRUST ONE"],
+  ["Jeffrey E. Epstein", "removeu", "Ghislaine Maxwell"],
+  ["Ghislaine Maxwell", "era", "co-Curador sucessor do trust"],
+  ["Jeffrey E. Epstein", "removeu", "Ira Zicherman"],
+  ["Ira Zicherman", "era", "co-Curador sucessor do trust"],
+  ["Jeffrey E. Epstein", "designou", "Darren K. Indyke"],
+  ["Darren K. Indyke", "é", "co-Curador sucessor do trust"],
+  ["Jeffrey E. Epstein", "designou", "Joseph Pagano"],
+  ["Joseph Pagano", "é", "co-Curador sucessor do trust"],
+  ["Jeffrey E. Epstein", "designou", "Lawrence Newman"],
+  ["Lawrence Newman", "é", "co-Curador sucessor do trust"],
+  ["Jeffrey E. Epstein", "executou", "a Quarta Alteração"],
+  ["A Quarta Alteração", "foi executada em", "5 de setembro de 2007"],
+  ["Jeffrey E. Epstein", "compareceu perante", "Lauren J. Kwintner"],
+  ["Lauren J. Kwintner", "é", "Notário Público"],
+  ["Lauren J. Kwintner", "é Notário Público no", "Estado de Nova York"],
+  ["Lauren J. Kwintner", "é qualificada em", "New York County"],
+  ["A comissão de Lauren J. Kwintner", "expira em", "30 de novembro de 2010"],
+  ["Lauren J. Kwintner", "tem número de comissão", "02KW6016686"]
+]
+```

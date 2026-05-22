@@ -1,0 +1,28 @@
+```json
+[
+  {
+    "subject": "Lesley Groff",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "American Express",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Lesley Groff",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "PayPal",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Lesley Groff",
+    "predicate": "LOCATED_IN",
+    "object": "Estados Unidos",
+    "subject_type": "Pessoa",
+    "object_type": "País",
+    "confidence": 0.90
+  }
+]
+```

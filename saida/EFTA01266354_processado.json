@@ -1,0 +1,76 @@
+```json
+[
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "FOUNDED",
+    "object": "The Jeffrey E. Epstein 2001 Trust Two",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "MANAGES",
+    "object": "The Jeffrey E. Epstein 2001 Trust Two",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Henry Jarecki",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "The Jeffrey E. Epstein 2001 Trust Two",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Darren K. Indyke",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "The Jeffrey E. Epstein 2001 Trust Two",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Joseph Pagano",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "The Jeffrey E. Epstein 2001 Trust Two",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Lawrence Newman",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "The Jeffrey E. Epstein 2001 Trust Two",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Lauren J. Kwintner",
+    "predicate": "WORKS_FOR",
+    "object": "Estado de Nova York",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.85
+  },
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Quarta Alteração do Trust Jeffrey E. Epstein 2001 Trust Two",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Quarta Alteração do Trust Jeffrey E. Epstein 2001 Trust Two",
+    "predicate": "RELATED_TO",
+    "object": "The Jeffrey E. Epstein 2001 Trust Two",
+    "subject_type": "Documento",
+    "object_type": "Instituição",
+    "confidence": 0.95
+  }
+]
+```

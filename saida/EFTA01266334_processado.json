@@ -1,0 +1,92 @@
+```json
+[
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "FOUNDED",
+    "object": "The Jeffrey E. Epstein 2001 Trust Two",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "MANAGES",
+    "object": "The Jeffrey E. Epstein 2001 Trust Two",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Jeffrey A. Schantz",
+    "predicate": "MANAGES",
+    "object": "The Jeffrey E. Epstein 2001 Trust Two",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Jeffrey A. Schantz",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Darren Indyke",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "The Jeffrey E. Epstein 2001 Trust Two",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Darren Indyke",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Jeffrey E. Epstein",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.90
+  },
+  {
+    "subject": "The Jeffrey E. Epstein 2001 Trust Two",
+    "predicate": "CONNECTED_TO",
+    "object": "Ilhas Virgens Americanas",
+    "subject_type": "Documento",
+    "object_type": "País",
+    "confidence": 0.95
+  },
+  {
+    "subject": "The Jeffrey E. Epstein 2001 Trust Two",
+    "predicate": "CONNECTED_TO",
+    "object": "The Jeffrey E. Epstein 2001 Trust One",
+    "subject_type": "Documento",
+    "object_type": "Documento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Lauren J. Kwintner",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Jeffrey E. Epstein",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Lauren J. Kwintner",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Jeffrey A. Schantz",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Lauren J. Kwintner",
+    "predicate": "LOCATED_IN",
+    "object": "Nova York",
+    "subject_type": "Pessoa",
+    "object_type": "Local",
+    "confidence": 0.98
+  }
+]
+```

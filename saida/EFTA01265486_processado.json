@@ -1,0 +1,10 @@
+[
+  {
+    "subject": "YouTube",
+    "predicate": "PART_OF",
+    "object": "Google",
+    "subject_type": "Empresa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  }
+]

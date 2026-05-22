@@ -1,0 +1,36 @@
+```json
+[
+  {
+    "subject": "Denise Johannes",
+    "predicate": "WORKS_FOR",
+    "object": "Office of the Lieutenant Governor",
+    "subject_type": "Pessoa",
+    "object_type": "Organização",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Rules 902(11)",
+    "predicate": "PART_OF",
+    "object": "Federal Rules of Evidence",
+    "subject_type": "Documento",
+    "object_type": "Documento",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Rules 803(6)",
+    "predicate": "PART_OF",
+    "object": "Federal Rules of Evidence",
+    "subject_type": "Documento",
+    "object_type": "Documento",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Office of the Lieutenant Governor",
+    "predicate": "LOCATED_IN",
+    "object": "St. Thomas",
+    "subject_type": "Organização",
+    "object_type": "Cidade",
+    "confidence": 0.98
+  }
+]
+```

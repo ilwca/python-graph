@@ -1,0 +1,36 @@
+```json
+[
+  {
+    "subject": "Milonie Caldwell",
+    "predicate": "WORKS_FOR",
+    "object": "Amazon, Inc.",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 1.0
+  },
+  {
+    "subject": "Milonie Caldwell",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Certificado de Autenticidade",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Seattle",
+    "predicate": "LOCATED_IN",
+    "object": "Washington",
+    "subject_type": "Cidade",
+    "object_type": "Local",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Certificado de Autenticidade",
+    "predicate": "RELATED_TO",
+    "object": "Amazon, Inc.",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.90
+  }
+]
+```

@@ -1,0 +1,178 @@
+[
+  {
+    "subject": "Alexander R. Acosta",
+    "predicate": "WORKS_FOR",
+    "object": "Departamento do Trabalho dos Estados Unidos",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Alexander R. Acosta",
+    "predicate": "WORKS_FOR",
+    "object": "Procuradoria dos Estados Unidos em Miami",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Procuradoria dos Estados Unidos em Miami",
+    "predicate": "LOCATED_IN",
+    "object": "Miami",
+    "subject_type": "Instituição",
+    "object_type": "Cidade",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Kenneth A. Marra",
+    "predicate": "WORKS_FOR",
+    "object": "Tribunal Distrital Federal de West Palm Beach",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Tribunal Distrital Federal de West Palm Beach",
+    "predicate": "LOCATED_IN",
+    "object": "West Palm Beach",
+    "subject_type": "Instituição",
+    "object_type": "Cidade",
+    "confidence": 0.99
+  },
+  {
+    "subject": "West Palm Beach",
+    "predicate": "LOCATED_IN",
+    "object": "Flórida",
+    "subject_type": "Cidade",
+    "object_type": "Local",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Jeffrey Epstein",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Donald Trump",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Jeffrey Epstein",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Bill Clinton",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Jeffrey Epstein",
+    "predicate": "OWNS",
+    "object": "Mansão de Palm Beach",
+    "subject_type": "Pessoa",
+    "object_type": "Local",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Jeffrey Epstein",
+    "predicate": "OWNS",
+    "object": "Mansão de Nova York",
+    "subject_type": "Pessoa",
+    "object_type": "Local",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Jeffrey Epstein",
+    "predicate": "OWNS",
+    "object": "Mansão das Ilhas Virgens",
+    "subject_type": "Pessoa",
+    "object_type": "Local",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Mansão de Palm Beach",
+    "predicate": "LOCATED_IN",
+    "object": "Palm Beach",
+    "subject_type": "Local",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Mansão de Nova York",
+    "predicate": "LOCATED_IN",
+    "object": "Nova York",
+    "subject_type": "Local",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Mansão das Ilhas Virgens",
+    "predicate": "LOCATED_IN",
+    "object": "Ilhas Virgens",
+    "subject_type": "Local",
+    "object_type": "Local",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Jack Scarola",
+    "predicate": "REPRESENTS",
+    "object": "Jane Doe 1",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Jack Scarola",
+    "predicate": "REPRESENTS",
+    "object": "Jane Doe 2",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Bradley J. Edwards",
+    "predicate": "REPRESENTS",
+    "object": "Jane Doe 1",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Bradley J. Edwards",
+    "predicate": "REPRESENTS",
+    "object": "Jane Doe 2",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Escritório de Responsabilidade Profissional dos Estados Unidos",
+    "predicate": "PART_OF",
+    "object": "Departamento de Justiça dos Estados Unidos",
+    "subject_type": "Instituição",
+    "object_type": "Instituição",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Departamento de Justiça dos Estados Unidos",
+    "predicate": "INVESTIGATED",
+    "object": "Acordo de Não Processamento de Jeffrey Epstein",
+    "subject_type": "Instituição",
+    "object_type": "Documento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ben Sasse",
+    "predicate": "MEMBER_OF",
+    "object": "Senado dos Estados Unidos",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Ben Sasse",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Nebraska",
+    "subject_type": "Pessoa",
+    "object_type": "Local",
+    "confidence": 0.95
+  }
+]

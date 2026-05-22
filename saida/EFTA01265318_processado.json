@@ -1,0 +1,252 @@
+```json
+[
+  {
+    "subject": "Ghislaine Noelle Maxwell",
+    "predicate": "LOCATED_IN",
+    "object": "116 East 65th Street, Nova York, NY 10065-7007",
+    "subject_type": "Pessoa",
+    "object_type": "Local",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Ghislaine Noelle Maxwell",
+    "predicate": "LOCATED_IN",
+    "object": "326 East 65th Street, #326, Nova York, NY 10065-6746",
+    "subject_type": "Pessoa",
+    "object_type": "Local",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Ghislaine Noelle Maxwell",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Citibank",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Citibank",
+    "predicate": "LOCATED_IN",
+    "object": "757 Madison Avenue, NY, NY",
+    "subject_type": "Empresa",
+    "object_type": "Local",
+    "confidence": 0.97
+  },
+  {
+    "subject": "Citibank",
+    "predicate": "LOCATED_IN",
+    "object": "399 Park Avenue, NY, NY",
+    "subject_type": "Empresa",
+    "object_type": "Local",
+    "confidence": 0.97
+  },
+  {
+    "subject": "Serviços ao Cliente Citibank",
+    "predicate": "LOCATED_IN",
+    "object": "100 Citibank Drive, San Antonio, TX 78245-9966",
+    "subject_type": "Organização",
+    "object_type": "Local",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Serviços ao Cliente Citibank",
+    "predicate": "PART_OF",
+    "object": "Citibank",
+    "subject_type": "Organização",
+    "object_type": "Empresa",
+    "confidence": 0.99
+  },
+  {
+    "subject": "The Home Depot",
+    "predicate": "LOCATED_IN",
+    "object": "Nova York, NY",
+    "subject_type": "Empresa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Whole Foods Market",
+    "predicate": "LOCATED_IN",
+    "object": "Nova York, NY",
+    "subject_type": "Empresa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Food Emporium",
+    "predicate": "LOCATED_IN",
+    "object": "Nova York, NY",
+    "subject_type": "Empresa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "NYC-TAXI",
+    "predicate": "LOCATED_IN",
+    "object": "Astoria, NY",
+    "subject_type": "Empresa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "NYC-TAXI",
+    "predicate": "LOCATED_IN",
+    "object": "Nova York, NY",
+    "subject_type": "Empresa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "First Commerce Bank",
+    "predicate": "LOCATED_IN",
+    "object": "Teaneck, NJ",
+    "subject_type": "Empresa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Citibank",
+    "predicate": "PART_OF",
+    "object": "Citigroup Inc.",
+    "subject_type": "Empresa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Citigroup Inc.",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Cruz Vermelha Americana",
+    "subject_type": "Empresa",
+    "object_type": "Organização",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Cruz Vermelha Americana",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Terremoto no Nepal",
+    "subject_type": "Organização",
+    "object_type": "Evento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Citigroup Inc.",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Terremoto no Nepal",
+    "subject_type": "Empresa",
+    "object_type": "Evento",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Cruz Vermelha Americana",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Enchente na Carolina do Sul",
+    "subject_type": "Organização",
+    "object_type": "Evento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Cruz Vermelha Americana",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Enchente na Louisiana",
+    "subject_type": "Organização",
+    "object_type": "Evento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Cruz Vermelha Americana",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Furacão Matthew",
+    "subject_type": "Organização",
+    "object_type": "Evento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Citibank",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Espanha",
+    "subject_type": "Empresa",
+    "object_type": "País",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Citibank",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Grécia",
+    "subject_type": "Empresa",
+    "object_type": "País",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Citibank",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Alemanha",
+    "subject_type": "Empresa",
+    "object_type": "País",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Citibank",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Bélgica",
+    "subject_type": "Empresa",
+    "object_type": "País",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Citibank",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Banco Bolivariano",
+    "subject_type": "Empresa",
+    "object_type": "Empresa",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Citibank",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Banco del Austro",
+    "subject_type": "Empresa",
+    "object_type": "Empresa",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Citibank",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Banco Popular Dominicano",
+    "subject_type": "Empresa",
+    "object_type": "Empresa",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Banco Bolivariano",
+    "predicate": "LOCATED_IN",
+    "object": "Equador",
+    "subject_type": "Empresa",
+    "object_type": "País",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Banco del Austro",
+    "predicate": "LOCATED_IN",
+    "object": "Equador",
+    "subject_type": "Empresa",
+    "object_type": "País",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Banco Popular Dominicano",
+    "predicate": "LOCATED_IN",
+    "object": "República Dominicana",
+    "subject_type": "Empresa",
+    "object_type": "País",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Fundação Teleton USA",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Univision",
+    "subject_type": "Organização",
+    "object_type": "Organização",
+    "confidence": 0.90
+  }
+]
+```

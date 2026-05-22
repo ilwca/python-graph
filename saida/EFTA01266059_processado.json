@@ -1,0 +1,42 @@
+[
+  {
+    "subject": "Mark Lubin",
+    "predicate": "WORKS_FOR",
+    "object": "FBI",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.98
+  },
+  {
+    "subject": "FBI",
+    "predicate": "LOCATED_IN",
+    "object": "Nova York",
+    "subject_type": "Instituição",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Mark Lubin",
+    "predicate": "INVESTIGATED",
+    "object": "Jeffrey Epstein",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Jeffrey Epstein",
+    "predicate": "CONNECTED_TO",
+    "object": "6100 Red Hook Quarter B3, St. Thomas",
+    "subject_type": "Pessoa",
+    "object_type": "Local",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Jeffrey Epstein",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "PayPal",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  }
+]

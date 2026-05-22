@@ -1,0 +1,204 @@
+```json
+[
+  {
+    "subject": "Alex Rossmiller",
+    "predicate": "WORKS_FOR",
+    "object": "Southern District of New York",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.97
+  },
+  {
+    "subject": "Geoffrey S. Berman",
+    "predicate": "WORKS_FOR",
+    "object": "Southern District of New York",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.95
+  },
+  {
+    "subject": "TERRAMARPROJECT",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "T-Mobile",
+    "subject_type": "Organização",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Governo dos Estados Unidos",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Operação de Pen Register e Trap-and-Trace",
+    "subject_type": "Organização",
+    "object_type": "Evento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "T-Mobile",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Operação de Pen Register e Trap-and-Trace",
+    "subject_type": "Empresa",
+    "object_type": "Evento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Federal Bureau of Investigation",
+    "predicate": "INVESTIGATED",
+    "object": "FNU LNU",
+    "subject_type": "Organização",
+    "object_type": "Pessoa",
+    "confidence": 0.97
+  },
+  {
+    "subject": "FNU LNU",
+    "predicate": "ACCUSED_OF",
+    "object": "21 U.S.C. § 1591",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Federal Bureau of Investigation",
+    "predicate": "FINANCED",
+    "object": "T-Mobile",
+    "subject_type": "Organização",
+    "object_type": "Empresa",
+    "confidence": 0.97
+  },
+  {
+    "subject": "T-Mobile",
+    "predicate": "COMMUNICATED_WITH",
+    "object": "Federal Bureau of Investigation",
+    "subject_type": "Empresa",
+    "object_type": "Organização",
+    "confidence": 0.97
+  },
+  {
+    "subject": "Debra Freeman",
+    "predicate": "WORKS_FOR",
+    "object": "Southern District of New York",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.97
+  },
+  {
+    "subject": "Alex Rossmiller",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Ordem Judicial",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Debra Freeman",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Ordem Judicial",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.98
+  },
+  {
+    "subject": "T-Mobile",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Ordem Judicial",
+    "subject_type": "Empresa",
+    "object_type": "Documento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ordem Judicial",
+    "predicate": "RELATED_TO",
+    "object": "Operação de Pen Register e Trap-and-Trace",
+    "subject_type": "Documento",
+    "object_type": "Evento",
+    "confidence": 0.97
+  },
+  {
+    "subject": "Ordem Judicial",
+    "predicate": "RELATED_TO",
+    "object": "18 U.S.C. § 3123",
+    "subject_type": "Documento",
+    "object_type": "Documento",
+    "confidence": 0.97
+  },
+  {
+    "subject": "Ordem Judicial",
+    "predicate": "RELATED_TO",
+    "object": "18 U.S.C. § 3123(a)(1)",
+    "subject_type": "Documento",
+    "object_type": "Documento",
+    "confidence": 0.97
+  },
+  {
+    "subject": "Ordem Judicial",
+    "predicate": "RELATED_TO",
+    "object": "18 U.S.C. §§ 3121-26",
+    "subject_type": "Documento",
+    "object_type": "Documento",
+    "confidence": 0.97
+  },
+  {
+    "subject": "Ordem Judicial",
+    "predicate": "RELATED_TO",
+    "object": "18 U.S.C. § 3123(c)(1)",
+    "subject_type": "Documento",
+    "object_type": "Documento",
+    "confidence": 0.97
+  },
+  {
+    "subject": "Ordem Judicial",
+    "predicate": "RELATED_TO",
+    "object": "18 U.S.C. §§ 3123(b)(2)",
+    "subject_type": "Documento",
+    "object_type": "Documento",
+    "confidence": 0.97
+  },
+  {
+    "subject": "Ordem Judicial",
+    "predicate": "RELATED_TO",
+    "object": "18 U.S.C. §§ 3124(a)-(b)",
+    "subject_type": "Documento",
+    "object_type": "Documento",
+    "confidence": 0.97
+  },
+  {
+    "subject": "Ordem Judicial",
+    "predicate": "RELATED_TO",
+    "object": "18 U.S.C. § 3124(c)",
+    "subject_type": "Documento",
+    "object_type": "Documento",
+    "confidence": 0.97
+  },
+  {
+    "subject": "Ordem Judicial",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Southern District of New York",
+    "subject_type": "Documento",
+    "object_type": "Instituição",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Ordem Judicial",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Federal Bureau of Investigation",
+    "subject_type": "Documento",
+    "object_type": "Organização",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Operação de Pen Register e Trap-and-Trace",
+    "predicate": "RELATED_TO",
+    "object": "Federal Bureau of Investigation",
+    "subject_type": "Evento",
+    "object_type": "Organização",
+    "confidence": 0.90
+  },
+  {
+    "subject": "Operação de Pen Register e Trap-and-Trace",
+    "predicate": "RELATED_TO",
+    "object": "FNU LNU",
+    "subject_type": "Evento",
+    "object_type": "Pessoa",
+    "confidence": 0.90
+  }
+]
+```

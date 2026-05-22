@@ -1,0 +1,34 @@
+[
+  {
+    "subject": "Rayshawn Campbell",
+    "predicate": "WORKS_FOR",
+    "object": "T-Mobile, U.S.A., Inc",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Rayshawn Campbell",
+    "predicate": "MEMBER_OF",
+    "object": "Law Enforcement Relations Group",
+    "subject_type": "Pessoa",
+    "object_type": "Organização",
+    "confidence": 0.9
+  },
+  {
+    "subject": "Law Enforcement Relations Group",
+    "predicate": "PART_OF",
+    "object": "T-Mobile, U.S.A., Inc",
+    "subject_type": "Organização",
+    "object_type": "Empresa",
+    "confidence": 0.92
+  },
+  {
+    "subject": "MetroPCS",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "T-Mobile, U.S.A., Inc",
+    "subject_type": "Empresa",
+    "object_type": "Empresa",
+    "confidence": 0.85
+  }
+]

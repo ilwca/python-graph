@@ -1,0 +1,26 @@
+[
+  {
+    "subject": "gmax1",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Google",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.9
+  },
+  {
+    "subject": "Conta Google 602199682141",
+    "predicate": "CONNECTED_TO",
+    "object": "gmax1",
+    "subject_type": "Documento",
+    "object_type": "Pessoa",
+    "confidence": 0.85
+  },
+  {
+    "subject": "YouTube",
+    "predicate": "PART_OF",
+    "object": "Google",
+    "subject_type": "Empresa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  }
+]

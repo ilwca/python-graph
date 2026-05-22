@@ -1,0 +1,10 @@
+[
+  {
+    "subject": "AT&T",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Matter ID: 2750182",
+    "subject_type": "Empresa",
+    "object_type": "Documento",
+    "confidence": 0.9
+  }
+]

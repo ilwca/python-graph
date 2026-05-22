@@ -1,9 +1,11 @@
 import os
 import re
 import json
+import argparse
 from pathlib import Path
 from dotenv import load_dotenv
 import google.generativeai as genai
+from openai import OpenAI
 
 # =========================
 # CONFIG
@@ -150,18 +152,36 @@ Retorne APENAS um array JSON válido.
 """
 
 # =========================
-# GEMINI
+# CLIENTS
 # =========================
 
 load_dotenv()
 
-genai.configure(
-    api_key=os.getenv("GEMINI_API_KEY")
-)
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+gemini_model = genai.GenerativeModel("gemini-3.5-flash")
 
-model = genai.GenerativeModel(
-    "gemini-2.0-flash"
-)
+openai_client = OpenAI(api_key=os.getenv("GPT_API_KEY"))
+
+def gerar_resposta(prompt, provider):
+    if provider == "openai":
+        response = openai_client.chat.completions.create(
+            model="gpt-4o",
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": prompt},
+            ],
+        )
+        return response.choices[0].message.content.strip()
+
+    # gemini (default)
+    response = gemini_model.generate_content(
+        [
+            {"role": "user", "parts": [SYSTEM_PROMPT]},
+            {"role": "model", "parts": ["Entendido. Aguardando texto para extração."]},
+            {"role": "user", "parts": [prompt]},
+        ]
+    )
+    return response.text.strip()
 
 # =========================
 # LOG
@@ -188,20 +208,14 @@ def salvar_processados(data):
 # PROCESSAMENTO
 # =========================
 
-def processar_arquivo(path_arquivo):
+def processar_arquivo(path_arquivo, provider):
 
     with open(path_arquivo, "r", encoding="utf-8") as f:
         conteudo = f.read()
 
     prompt = PROMPT_TEMPLATE.format(content=conteudo)
 
-    resposta = model.generate_content(
-        [{"role": "user", "parts": [SYSTEM_PROMPT]},
-         {"role": "model", "parts": ["Entendido. Aguardando texto para extração."]},
-         {"role": "user", "parts": [prompt]}]
-    )
-
-    texto = resposta.text.strip()
+    texto = gerar_resposta(prompt, provider)
     texto = re.sub(r"^```(?:json)?\s*", "", texto)
     texto = re.sub(r"\s*```$", "", texto)
 
@@ -229,8 +243,18 @@ def processar_arquivo(path_arquivo):
 
 def main():
 
-    processados = carregar_processados()
+    parser = argparse.ArgumentParser(description="Extração de relações para grafo de conhecimento")
+    parser.add_argument(
+        "--provider",
+        choices=["gemini", "openai"],
+        default="gemini",
+        help="API a utilizar: gemini (padrão) ou openai",
+    )
+    args = parser.parse_args()
 
+    print(f"[INFO] Usando provider: {args.provider}")
+
+    processados = carregar_processados()
     arquivos = Path(INPUT_DIR).glob("*.md")
 
     for arquivo in arquivos:
@@ -243,7 +267,7 @@ def main():
 
         try:
 
-            processar_arquivo(arquivo)
+            processar_arquivo(arquivo, args.provider)
 
             processados[nome] = True
 

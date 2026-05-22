@@ -1,0 +1,42 @@
+[
+  {
+    "subject": "Nikv. Itaas",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Estados Unidos",
+    "subject_type": "Pessoa",
+    "object_type": "País",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Nikv. Itaas",
+    "predicate": "WORKS_FOR",
+    "object": "Experian Information Solutions, Inc.",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.9
+  },
+  {
+    "subject": "Maurene Comey",
+    "predicate": "WORKS_FOR",
+    "object": "Procuradoria Federal dos Estados Unidos",
+    "subject_type": "Pessoa",
+    "object_type": "Instituição",
+    "confidence": 0.9
+  },
+  {
+    "subject": "Maurene Comey",
+    "predicate": "RESPONSIBLE_FOR",
+    "object": "Intimação do Grande Júri",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Intimação do Grande Júri",
+    "predicate": "RELATED_TO",
+    "object": "Experian Information Solutions, Inc.",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.9
+  }
+]

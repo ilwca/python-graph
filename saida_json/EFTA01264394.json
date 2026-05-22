@@ -1,0 +1,26 @@
+[
+  {
+    "subject": "Peter Simmer",
+    "predicate": "WORKS_FOR",
+    "object": "AT&T",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.99
+  },
+  {
+    "subject": "AT&T",
+    "predicate": "LOCATED_IN",
+    "object": "North Palm Beach",
+    "subject_type": "Empresa",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "AT&T",
+    "predicate": "COMMUNICATED_WITH",
+    "object": "Força-Tarefa de Exploração Infantil e Tráfico Humano",
+    "subject_type": "Empresa",
+    "object_type": "Organização",
+    "confidence": 0.9
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "subject": "FBI",
+    "predicate": "INVESTIGATED",
+    "object": "Jeffrey Epstein",
+    "subject_type": "Instituição",
+    "object_type": "Pessoa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "FBI",
+    "predicate": "LOCATED_IN",
+    "object": "Nova York",
+    "subject_type": "Instituição",
+    "object_type": "Cidade",
+    "confidence": 0.9
+  },
+  {
+    "subject": "Jeffrey Epstein",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Chase Paynet",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.85
+  }
+]

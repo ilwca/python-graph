@@ -1,0 +1,18 @@
+[
+  {
+    "subject": "Conta de Poupança Orange",
+    "predicate": "CONNECTED_TO",
+    "object": "ING Direct",
+    "subject_type": "Operação Financeira",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00006116",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "SDNY",
+    "subject_type": "Documento",
+    "object_type": "Instituição",
+    "confidence": 0.9
+  }
+]

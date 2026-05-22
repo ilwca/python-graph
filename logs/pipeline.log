@@ -17,3 +17,42 @@
 09:39:16 [INFO] Aliases   : 4 entidades / 1 predicados
 09:39:16 [INFO] Grafo     : 4 nós / 4 arestas
 09:39:16 [INFO] ==================================================
+11:54:11 [INFO] Iniciando pipeline de Knowledge Graph
+11:54:11 [INFO] Fonte: /home/luca/Documentos/rc/convert-data/saida
+11:54:11 [ERROR] [ERRO LEITURA] EFTA01262791_processado.json → Expecting value: line 1 column 1 (char 0)
+11:54:11 [ERROR] [ERRO LEITURA] EFTA01262798_processado.json → Expecting value: line 1 column 1 (char 0)
+11:54:11 [WARNING] [SKIP] Arquivo vazio: EFTA01263024_processado.json
+11:54:11 [ERROR] [ERRO LEITURA] EFTA01263289_processado.json → Expecting value: line 1 column 1 (char 0)
+11:54:11 [ERROR] [ERRO LEITURA] EFTA01264248_processado.json → Expecting value: line 1 column 1 (char 0)
+11:54:11 [ERROR] [ERRO LEITURA] EFTA01264412_processado.json → Expecting value: line 1 column 1 (char 0)
+11:54:11 [ERROR] [ERRO LEITURA] EFTA01265224_processado.json → Expecting value: line 1 column 1 (char 0)
+11:54:11 [ERROR] [ERRO LEITURA] EFTA01265301_processado.json → Expecting value: line 1 column 1 (char 0)
+11:54:11 [ERROR] [ERRO LEITURA] EFTA01265318_processado.json → Expecting value: line 1 column 1 (char 0)
+11:54:11 [ERROR] [ERRO LEITURA] EFTA01265450_processado.json → Expecting value: line 1 column 1 (char 0)
+11:54:11 [ERROR] [ERRO LEITURA] EFTA01265460_processado.json → Expecting value: line 1 column 1 (char 0)
+11:54:11 [ERROR] [ERRO LEITURA] EFTA01265795_processado.json → Expecting value: line 1 column 1 (char 0)
+11:54:11 [WARNING] [SKIP] Arquivo vazio: EFTA01265886_processado.json
+11:54:11 [ERROR] [ERRO LEITURA] EFTA01266036_processado.json → Expecting value: line 1 column 1 (char 0)
+11:54:11 [ERROR] [ERRO LEITURA] EFTA01266080_processado.json → Expecting value: line 1 column 1 (char 0)
+11:54:11 [ERROR] [ERRO LEITURA] EFTA01266134_processado.json → Expecting value: line 1 column 1 (char 0)
+11:54:11 [ERROR] [ERRO LEITURA] EFTA01266288_processado.json → Expecting value: line 1 column 1 (char 0)
+11:54:11 [ERROR] [ERRO LEITURA] EFTA01266327_processado.json → Expecting value: line 1 column 1 (char 0)
+11:54:11 [ERROR] [ERRO LEITURA] EFTA01266334_processado.json → Expecting value: line 1 column 1 (char 0)
+11:54:11 [ERROR] [ERRO LEITURA] EFTA01266354_processado.json → Expecting value: line 1 column 1 (char 0)
+11:54:11 [ERROR] [ERRO LEITURA] EFTA01266723_processado.json → Expecting value: line 1 column 1 (char 0)
+11:54:11 [ERROR] [ERRO LEITURA] EFTA01266724_processado.json → Expecting value: line 1 column 1 (char 0)
+11:54:11 [INFO] ==================================================
+11:54:11 [INFO] MÉTRICAS FINAIS
+11:54:11 [INFO] ==================================================
+11:54:11 [INFO] Arquivos  : 29 processados / 22 inválidos
+11:54:11 [INFO] Relações  : 200 carregadas → 187 finais (13 descartadas)
+11:54:11 [INFO] Descartadas breakdown:
+11:54:11 [INFO]   estrutura inválida : 0
+11:54:11 [INFO]   predicado inválido : 0
+11:54:11 [INFO]   confidence baixa   : 0
+11:54:11 [INFO]   entidade bloqueada : 0
+11:54:11 [INFO]   self-loops         : 3
+11:54:11 [INFO]   duplicatas         : 10
+11:54:11 [INFO] Aliases   : 49 entidades / 0 predicados
+11:54:11 [INFO] Grafo     : 169 nós / 187 arestas
+11:54:11 [INFO] ==================================================

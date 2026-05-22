@@ -23,7 +23,7 @@ from pyvis.network import Network
 # PATHS
 # ============================================================
 
-SAIDA_DIR = Path("/home/luca/Documentos/rc/convert-data/saida_json")
+SAIDA_DIR = Path("/home/luca/Documentos/rc/convert-data/saida")
 OUTPUT_DIR = Path("/home/luca/Documentos/rc/convert-data/grafos")
 LOG_DIR   = Path("/home/luca/Documentos/rc/convert-data/logs")
 

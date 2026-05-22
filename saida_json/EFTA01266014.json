@@ -1,0 +1,34 @@
+[
+  {
+    "subject": "301 E 66th St",
+    "predicate": "LOCATED_IN",
+    "object": "Nova York",
+    "subject_type": "Local",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Conta Poupança Orange",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "ING Direct",
+    "subject_type": "Operação Financeira",
+    "object_type": "Empresa",
+    "confidence": 0.9
+  },
+  {
+    "subject": "Electric Orange",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "ING Direct",
+    "subject_type": "Operação Financeira",
+    "object_type": "Empresa",
+    "confidence": 0.9
+  },
+  {
+    "subject": "Sorteio Automatic Saver",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "ING Direct",
+    "subject_type": "Evento",
+    "object_type": "Empresa",
+    "confidence": 0.85
+  }
+]

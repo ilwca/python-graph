@@ -1,0 +1,42 @@
+[
+  {
+    "subject": "Jeffrey Epstein",
+    "predicate": "RELATED_TO",
+    "object": "Processo Judicial 50-2006-CF-009454-AXXX-MB",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Jeffrey Epstein",
+    "predicate": "RELATED_TO",
+    "object": "Processo Judicial 50-2008-CF-009381-AXXX-MB",
+    "subject_type": "Pessoa",
+    "object_type": "Documento",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Clerk & Comptroller Palm Beach County",
+    "predicate": "LOCATED_IN",
+    "object": "Palm Beach County",
+    "subject_type": "Instituição",
+    "object_type": "Local",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Processo Judicial 50-2006-CF-009454-AXXX-MB",
+    "predicate": "RELATED_TO",
+    "object": "Clerk & Comptroller Palm Beach County",
+    "subject_type": "Documento",
+    "object_type": "Instituição",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Processo Judicial 50-2008-CF-009381-AXXX-MB",
+    "predicate": "RELATED_TO",
+    "object": "Clerk & Comptroller Palm Beach County",
+    "subject_type": "Documento",
+    "object_type": "Instituição",
+    "confidence": 0.95
+  }
+]

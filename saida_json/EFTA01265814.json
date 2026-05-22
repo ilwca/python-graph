@@ -1,0 +1,58 @@
+[
+  {
+    "subject": "Larry Visoski",
+    "predicate": "TRAVELED_TO",
+    "object": "Aeroporto de Teterboro",
+    "subject_type": "Pessoa",
+    "object_type": "Local",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Larry Visoski",
+    "predicate": "TRAVELED_TO",
+    "object": "Aeroporto de Newark",
+    "subject_type": "Pessoa",
+    "object_type": "Local",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Lance Calloway",
+    "predicate": "TRAVELED_TO",
+    "object": "Aeroporto de Newark",
+    "subject_type": "Pessoa",
+    "object_type": "Local",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Lance Calloway",
+    "predicate": "TRAVELED_TO",
+    "object": "Aeroporto de Teterboro",
+    "subject_type": "Pessoa",
+    "object_type": "Local",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ghislaine Maxwell",
+    "predicate": "TRAVELED_TO",
+    "object": "Aeroporto de Luton",
+    "subject_type": "Pessoa",
+    "object_type": "Local",
+    "confidence": 0.92
+  },
+  {
+    "subject": "John Roberts",
+    "predicate": "TRAVELED_TO",
+    "object": "Aeroporto de Teterboro",
+    "subject_type": "Pessoa",
+    "object_type": "Local",
+    "confidence": 0.9
+  },
+  {
+    "subject": "Emarea Nowak",
+    "predicate": "TRAVELED_TO",
+    "object": "Bedford",
+    "subject_type": "Pessoa",
+    "object_type": "Local",
+    "confidence": 0.9
+  }
+]

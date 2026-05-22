@@ -1,0 +1,226 @@
+[
+  {
+    "subject": "SDNY_GM_00002310",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002311",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002314",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002315",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002316",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002317",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002319",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002322",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "EFTA_00116408",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002326",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002329",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002332",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002334",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002335",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002336",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002339",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002341",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002342",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002344",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002346",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002347",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002352",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002354",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002359",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002365",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002375",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SDNY_GM_00002378",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "EFTA_00116451",
+    "predicate": "RELATED_TO",
+    "object": "AT&T",
+    "subject_type": "Documento",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  }
+]

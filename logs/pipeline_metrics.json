@@ -1,28 +1,49 @@
 {
-  "timestamp": "2026-05-22T09:39:16.615074",
+  "timestamp": "2026-05-22T11:54:11.143562",
   "files": {
-    "processed": 1,
-    "invalid": 0
+    "processed": 29,
+    "invalid": 22
   },
   "relations": {
-    "loaded": 8,
+    "loaded": 200,
     "discarded": {
       "invalid_structure": 0,
-      "invalid_predicate": 1,
-      "low_confidence": 1,
-      "blocked_entity": 1,
-      "self_loops": 0,
-      "duplicates": 1
+      "invalid_predicate": 0,
+      "low_confidence": 0,
+      "blocked_entity": 0,
+      "self_loops": 3,
+      "duplicates": 10
     },
     "aliases": {
-      "entity": 4,
-      "predicate": 1
+      "entity": 49,
+      "predicate": 0
     },
-    "final": 4
+    "final": 187
   },
   "graph": {
-    "nodes": 4,
-    "edges": 4
+    "nodes": 169,
+    "edges": 187
   },
-  "errors": []
+  "errors": [
+    "EFTA01262791_processado.json: Expecting value: line 1 column 1 (char 0)",
+    "EFTA01262798_processado.json: Expecting value: line 1 column 1 (char 0)",
+    "EFTA01263289_processado.json: Expecting value: line 1 column 1 (char 0)",
+    "EFTA01264248_processado.json: Expecting value: line 1 column 1 (char 0)",
+    "EFTA01264412_processado.json: Expecting value: line 1 column 1 (char 0)",
+    "EFTA01265224_processado.json: Expecting value: line 1 column 1 (char 0)",
+    "EFTA01265301_processado.json: Expecting value: line 1 column 1 (char 0)",
+    "EFTA01265318_processado.json: Expecting value: line 1 column 1 (char 0)",
+    "EFTA01265450_processado.json: Expecting value: line 1 column 1 (char 0)",
+    "EFTA01265460_processado.json: Expecting value: line 1 column 1 (char 0)",
+    "EFTA01265795_processado.json: Expecting value: line 1 column 1 (char 0)",
+    "EFTA01266036_processado.json: Expecting value: line 1 column 1 (char 0)",
+    "EFTA01266080_processado.json: Expecting value: line 1 column 1 (char 0)",
+    "EFTA01266134_processado.json: Expecting value: line 1 column 1 (char 0)",
+    "EFTA01266288_processado.json: Expecting value: line 1 column 1 (char 0)",
+    "EFTA01266327_processado.json: Expecting value: line 1 column 1 (char 0)",
+    "EFTA01266334_processado.json: Expecting value: line 1 column 1 (char 0)",
+    "EFTA01266354_processado.json: Expecting value: line 1 column 1 (char 0)",
+    "EFTA01266723_processado.json: Expecting value: line 1 column 1 (char 0)",
+    "EFTA01266724_processado.json: Expecting value: line 1 column 1 (char 0)"
+  ]
 }

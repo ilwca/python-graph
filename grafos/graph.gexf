@@ -13,54 +13,2142 @@
       <attribute id="1" title="degree" type="long" />
     </attributes>
     <nodes>
-      <node id="Jeffrey Epstein" label="Jeffrey Epstein">
+      <node id="Federal Bureau of Investigation" label="Federal Bureau of Investigation">
         <attvalues>
-          <attvalue for="0" value="Pessoa" />
-          <attvalue for="1" value="4" />
+          <attvalue for="0" value="Organização" />
+          <attvalue for="1" value="7" />
         </attvalues>
       </node>
       <node id="Ghislaine Maxwell" label="Ghislaine Maxwell">
         <attvalues>
           <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="28" />
+        </attvalues>
+      </node>
+      <node id="Nova York" label="Nova York">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="United States" label="United States">
+        <attvalues>
+          <attvalue for="0" value="País" />
+          <attvalue for="1" value="14" />
+        </attvalues>
+      </node>
+      <node id="Jeffrey Epstein" label="Jeffrey Epstein">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="31" />
+        </attvalues>
+      </node>
+      <node id="Ann M. Rodriquez" label="Ann M. Rodriquez">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="França" label="França">
+        <attvalues>
+          <attvalue for="0" value="País" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="Bradford" label="Bradford">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Londres" label="Londres">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Boston" label="Boston">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Miami" label="Miami">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
           <attvalue for="1" value="2" />
         </attvalues>
       </node>
-      <node id="Little Saint James" label="Little Saint James">
+      <node id="Paris" label="Paris">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="Los Angeles" label="Los Angeles">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Tóquio" label="Tóquio">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Doha" label="Doha">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Montreal" label="Montreal">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sint Maarten" label="Sint Maarten">
         <attvalues>
           <attvalue for="0" value="Local" />
           <attvalue for="1" value="1" />
         </attvalues>
       </node>
-      <node id="Bear Stearns" label="Bear Stearns">
+      <node id="West Palm Beach" label="West Palm Beach">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="Teterboro" label="Teterboro">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Ottawa" label="Ottawa">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Veneza" label="Veneza">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Rio de Janeiro" label="Rio de Janeiro">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Hong Kong" label="Hong Kong">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Barbados" label="Barbados">
+        <attvalues>
+          <attvalue for="0" value="País" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Ilhas Virgens Britânicas" label="Ilhas Virgens Britânicas">
+        <attvalues>
+          <attvalue for="0" value="País" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Nice" label="Nice">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Tel Aviv" label="Tel Aviv">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Amã" label="Amã">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Aeroporto de Luton" label="Aeroporto de Luton">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Capital One, N.A." label="Capital One, N.A.">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="United States District Court for the Southern District of New York" label="United States District Court for the Southern District of New York">
+        <attvalues>
+          <attvalue for="0" value="Instituição" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Mandado de Busca e Apreensão" label="Mandado de Busca e Apreensão">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Title 18, United States Code" label="Title 18, United States Code">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="SLK Designs LLC" label="SLK Designs LLC">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="Processo Judicial 50-2006-CF-009454-AXXX-MB" label="Processo Judicial 50-2006-CF-009454-AXXX-MB">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Processo Judicial 50-2008-CF-009381-AXXX-MB" label="Processo Judicial 50-2008-CF-009381-AXXX-MB">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Donald Trump" label="Donald Trump">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Bill Clinton" label="Bill Clinton">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Mansão de Palm Beach" label="Mansão de Palm Beach">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Mansão de Nova York" label="Mansão de Nova York">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Mansão das Ilhas Virgens" label="Mansão das Ilhas Virgens">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Chase Paynet" label="Chase Paynet">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="6100 Red Hook Quarter B3, St. Thomas" label="6100 Red Hook Quarter B3, St. Thomas">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="PayPal" label="PayPal">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Original Trust Agreement" label="Original Trust Agreement">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Amended and Restated Trust Agreement" label="Amended and Restated Trust Agreement">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Sci Jep" label="Sci Jep">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="Karyna Shuliak" label="Karyna Shuliak">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Jean Luc Brunel" label="Jean Luc Brunel">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Eva Dubin" label="Eva Dubin">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="U.S. Customs and Border Protection" label="U.S. Customs and Border Protection">
+        <attvalues>
+          <attvalue for="0" value="Organização" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="U.S. Department of Homeland Security" label="U.S. Department of Homeland Security">
         <attvalues>
           <attvalue for="0" value="Organização" />
           <attvalue for="1" value="1" />
         </attvalues>
       </node>
+      <node id="TECS-Person Encounter List" label="TECS-Person Encounter List">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Flórida" label="Flórida">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Peter Simmer" label="Peter Simmer">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="At&amp;T" label="At&amp;T">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="32" />
+        </attvalues>
+      </node>
+      <node id="North Palm Beach" label="North Palm Beach">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Força-Tarefa de Exploração Infantil e Tráfico Humano" label="Força-Tarefa de Exploração Infantil e Tráfico Humano">
+        <attvalues>
+          <attvalue for="0" value="Organização" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Matter ID: 2750182" label="Matter ID: 2750182">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002310" label="Sdny_Gm_00002310">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002311" label="Sdny_Gm_00002311">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002314" label="Sdny_Gm_00002314">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002315" label="Sdny_Gm_00002315">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002316" label="Sdny_Gm_00002316">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002317" label="Sdny_Gm_00002317">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002319" label="Sdny_Gm_00002319">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002322" label="Sdny_Gm_00002322">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Efta_00116408" label="Efta_00116408">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002326" label="Sdny_Gm_00002326">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002329" label="Sdny_Gm_00002329">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002332" label="Sdny_Gm_00002332">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002334" label="Sdny_Gm_00002334">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002335" label="Sdny_Gm_00002335">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002336" label="Sdny_Gm_00002336">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002339" label="Sdny_Gm_00002339">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002341" label="Sdny_Gm_00002341">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002342" label="Sdny_Gm_00002342">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002344" label="Sdny_Gm_00002344">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002346" label="Sdny_Gm_00002346">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002347" label="Sdny_Gm_00002347">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002352" label="Sdny_Gm_00002352">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002354" label="Sdny_Gm_00002354">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002359" label="Sdny_Gm_00002359">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002365" label="Sdny_Gm_00002365">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002375" label="Sdny_Gm_00002375">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00002378" label="Sdny_Gm_00002378">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Efta_00116451" label="Efta_00116451">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Citibank, N.A." label="Citibank, N.A.">
+        <attvalues>
+          <attvalue for="0" value="Instituição" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Adp" label="Adp">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Oxford Health" label="Oxford Health">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="The Hartford" label="The Hartford">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="CT Corporation" label="CT Corporation">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Citigroup Inc." label="Citigroup Inc.">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Nikv. Itaas" label="Nikv. Itaas">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Experian Information Solutions, Inc." label="Experian Information Solutions, Inc.">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Maurene Comey" label="Maurene Comey">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Intimação do Grande Júri" label="Intimação do Grande Júri">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="Southwest Airlines Co." label="Southwest Airlines Co.">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="Gmax1" label="Gmax1">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Google" label="Google">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Conta Google 602199682141" label="Conta Google 602199682141">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="YouTube" label="YouTube">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Segurança Global e Investigações" label="Segurança Global e Investigações">
+        <attvalues>
+          <attvalue for="0" value="Organização" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="MoneyGram Payment Systems Inc." label="MoneyGram Payment Systems Inc.">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="CT Corp" label="CT Corp">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Wolters Kluwer" label="Wolters Kluwer">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="MoneyGram Online" label="MoneyGram Online">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Brooklyn Center" label="Brooklyn Center">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Minnesota" label="Minnesota">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Larry Visoski" label="Larry Visoski">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Aeroporto de Teterboro" label="Aeroporto de Teterboro">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="Aeroporto de Newark" label="Aeroporto de Newark">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Lance Calloway" label="Lance Calloway">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="John Roberts" label="John Roberts">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Emarea Nowak" label="Emarea Nowak">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Bedford" label="Bedford">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Clerk &amp; Comptroller Palm Beach County" label="Clerk &amp; Comptroller Palm Beach County">
+        <attvalues>
+          <attvalue for="0" value="Instituição" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="Palm Beach County" label="Palm Beach County">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Alexander R. Acosta" label="Alexander R. Acosta">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Kenneth A. Marra" label="Kenneth A. Marra">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Tribunal Distrital Federal de West Palm Beach" label="Tribunal Distrital Federal de West Palm Beach">
+        <attvalues>
+          <attvalue for="0" value="Instituição" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Palm Beach" label="Palm Beach">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="Ilhas Virgens" label="Ilhas Virgens">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Jack Scarola" label="Jack Scarola">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Jane Doe 1" label="Jane Doe 1">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Jane Doe 2" label="Jane Doe 2">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Bradley J. Edwards" label="Bradley J. Edwards">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ben Sasse" label="Ben Sasse">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Nebraska" label="Nebraska">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Ren Nathan" label="Ren Nathan">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Dallas" label="Dallas">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="301 E 66th St" label="301 E 66th St">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Conta Poupança Orange" label="Conta Poupança Orange">
+        <attvalues>
+          <attvalue for="0" value="Operação Financeira" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="ING Direct" label="ING Direct">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="Ing Direct" label="Ing Direct">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Electric Orange" label="Electric Orange">
+        <attvalues>
+          <attvalue for="0" value="Operação Financeira" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sorteio Automatic Saver" label="Sorteio Automatic Saver">
+        <attvalues>
+          <attvalue for="0" value="Evento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Orange Savings Account" label="Orange Savings Account">
+        <attvalues>
+          <attvalue for="0" value="Operação Financeira" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Conta de Poupança Orange" label="Conta de Poupança Orange">
+        <attvalues>
+          <attvalue for="0" value="Operação Financeira" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sdny_Gm_00006116" label="Sdny_Gm_00006116">
+        <attvalues>
+          <attvalue for="0" value="Documento" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Southern District of New York" label="Southern District of New York">
+        <attvalues>
+          <attvalue for="0" value="Instituição" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Capital One Services, LLC" label="Capital One Services, LLC">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Mark Lubin" label="Mark Lubin">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="9 East 71st Street" label="9 East 71st Street">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="American Express" label="American Express">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Rayshawn Campbell" label="Rayshawn Campbell">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Law Enforcement Relations Group" label="Law Enforcement Relations Group">
+        <attvalues>
+          <attvalue for="0" value="Organização" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="MetroPCS" label="MetroPCS">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Darren K. Indyke" label="Darren K. Indyke">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Andrew Farkas" label="Andrew Farkas">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Jeffrey A. Schantz" label="Jeffrey A. Schantz">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Jes Staley" label="Jes Staley">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Harry I. Beller" label="Harry I. Beller">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="James E. Staley" label="James E. Staley">
+        <attvalues>
+          <attvalue for="0" value="Pessoa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="22 Avenue Foch" label="22 Avenue Foch">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Maple, Inc." label="Maple, Inc.">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ilhas Virgens Americanas" label="Ilhas Virgens Americanas">
+        <attvalues>
+          <attvalue for="0" value="País" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="Nautilus, Inc." label="Nautilus, Inc.">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="Little Saint James" label="Little Saint James">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="L.S.J., Llc" label="L.S.J., Llc">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Delaware" label="Delaware">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Cypress, Inc." label="Cypress, Inc.">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Zorro Ranch" label="Zorro Ranch">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Stanley" label="Stanley">
+        <attvalues>
+          <attvalue for="0" value="Cidade" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Novo México" label="Novo México">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Laurel, Inc." label="Laurel, Inc.">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="358 El Brillo Way" label="358 El Brillo Way">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="Kcac, Llc" label="Kcac, Llc">
+        <attvalues>
+          <attvalue for="0" value="Empresa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Nova Jersey" label="Nova Jersey">
+        <attvalues>
+          <attvalue for="0" value="Local" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
     </nodes>
     <edges>
-      <edge source="Jeffrey Epstein" target="Ghislaine Maxwell" id="0" weight="1">
+      <edge source="Federal Bureau of Investigation" target="Ghislaine Maxwell" id="0" weight="1">
         <attvalues>
-          <attvalue for="2" value="ASSOCIATED_WITH" />
-          <attvalue for="3" value="0.97" />
-        </attvalues>
-      </edge>
-      <edge source="Jeffrey Epstein" target="Little Saint James" id="1" weight="1">
-        <attvalues>
-          <attvalue for="2" value="OWNS" />
+          <attvalue for="2" value="INVESTIGATED" />
           <attvalue for="3" value="0.95" />
         </attvalues>
       </edge>
-      <edge source="Jeffrey Epstein" target="Bear Stearns" id="2" weight="1">
+      <edge source="Federal Bureau of Investigation" target="Nova York" id="1" weight="1">
         <attvalues>
-          <attvalue for="2" value="WORKS_FOR" />
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.99" />
+        </attvalues>
+      </edge>
+      <edge source="Federal Bureau of Investigation" target="United States" id="2" weight="1">
+        <attvalues>
+          <attvalue for="2" value="PART_OF" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Federal Bureau of Investigation" target="Jeffrey Epstein" id="3" weight="1">
+        <attvalues>
+          <attvalue for="2" value="INVESTIGATED" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Federal Bureau of Investigation" target="Ann M. Rodriquez" id="4" weight="1">
+        <attvalues>
+          <attvalue for="2" value="INVESTIGATED" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="França" id="5" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="United States" id="6" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Bradford" id="7" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
           <attvalue for="3" value="0.85" />
         </attvalues>
       </edge>
-      <edge source="Ghislaine Maxwell" target="Jeffrey Epstein" id="3" weight="1">
+      <edge source="Ghislaine Maxwell" target="Londres" id="8" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Boston" id="9" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Nova York" id="10" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Miami" id="11" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Paris" id="12" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Los Angeles" id="13" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Tóquio" id="14" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Doha" id="15" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Montreal" id="16" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Sint Maarten" id="17" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="West Palm Beach" id="18" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Teterboro" id="19" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Ottawa" id="20" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Veneza" id="21" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Rio de Janeiro" id="22" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Hong Kong" id="23" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Barbados" id="24" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Ilhas Virgens Britânicas" id="25" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Nice" id="26" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Tel Aviv" id="27" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Amã" id="28" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ghislaine Maxwell" target="Aeroporto de Luton" id="29" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.92" />
+        </attvalues>
+      </edge>
+      <edge source="Nova York" target="United States" id="30" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.99" />
+        </attvalues>
+      </edge>
+      <edge source="United States" target="Miami" id="31" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.99" />
+        </attvalues>
+      </edge>
+      <edge source="United States" target="Jeffrey Epstein" id="32" weight="1">
+        <attvalues>
+          <attvalue for="2" value="INVESTIGATED" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="United States" target="Capital One, N.A." id="33" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="Mandado de Busca e Apreensão" id="34" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="Title 18, United States Code" id="35" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="SLK Designs LLC" id="36" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRANSFERRED_MONEY_TO" />
+          <attvalue for="3" value="0.99" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="Processo Judicial 50-2006-CF-009454-AXXX-MB" id="37" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.99" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="Processo Judicial 50-2008-CF-009381-AXXX-MB" id="38" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.99" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="Donald Trump" id="39" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="Bill Clinton" id="40" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="Mansão de Palm Beach" id="41" weight="1">
+        <attvalues>
+          <attvalue for="2" value="OWNS" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="Mansão de Nova York" id="42" weight="1">
+        <attvalues>
+          <attvalue for="2" value="OWNS" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="Mansão das Ilhas Virgens" id="43" weight="1">
+        <attvalues>
+          <attvalue for="2" value="OWNS" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="Nova York" id="44" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="Chase Paynet" id="45" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.85" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="6100 Red Hook Quarter B3, St. Thomas" id="46" weight="1">
+        <attvalues>
+          <attvalue for="2" value="CONNECTED_TO" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="PayPal" id="47" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="Original Trust Agreement" id="48" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RESPONSIBLE_FOR" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="Amended and Restated Trust Agreement" id="49" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RESPONSIBLE_FOR" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="Sci Jep" id="50" weight="1">
+        <attvalues>
+          <attvalue for="2" value="OWNS" />
+          <attvalue for="3" value="0.99" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="Ghislaine Maxwell" id="51" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="Karyna Shuliak" id="52" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="Jean Luc Brunel" id="53" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey Epstein" target="Eva Dubin" id="54" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ann M. Rodriquez" target="9 East 71st Street" id="55" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ann M. Rodriquez" target="American Express" id="56" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Paris" target="França" id="57" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.99" />
+        </attvalues>
+      </edge>
+      <edge source="West Palm Beach" target="Flórida" id="58" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.99" />
+        </attvalues>
+      </edge>
+      <edge source="Capital One, N.A." target="Federal Bureau of Investigation" id="59" weight="1">
+        <attvalues>
+          <attvalue for="2" value="COMMUNICATED_WITH" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="United States District Court for the Southern District of New York" target="Nova York" id="60" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Mandado de Busca e Apreensão" target="Title 18, United States Code" id="61" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="SLK Designs LLC" target="Nova York" id="62" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.99" />
+        </attvalues>
+      </edge>
+      <edge source="SLK Designs LLC" target="Citibank, N.A." id="63" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="SLK Designs LLC" target="Adp" id="64" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRANSFERRED_MONEY_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="SLK Designs LLC" target="Oxford Health" id="65" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRANSFERRED_MONEY_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="SLK Designs LLC" target="The Hartford" id="66" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRANSFERRED_MONEY_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="SLK Designs LLC" target="CT Corporation" id="67" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRANSFERRED_MONEY_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Processo Judicial 50-2006-CF-009454-AXXX-MB" target="Clerk &amp; Comptroller Palm Beach County" id="68" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Processo Judicial 50-2008-CF-009381-AXXX-MB" target="Clerk &amp; Comptroller Palm Beach County" id="69" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Mansão de Palm Beach" target="Palm Beach" id="70" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Mansão de Nova York" target="Nova York" id="71" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Mansão das Ilhas Virgens" target="Ilhas Virgens" id="72" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Original Trust Agreement" target="Jeffrey Epstein" id="73" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Amended and Restated Trust Agreement" target="Jeffrey Epstein" id="74" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sci Jep" target="França" id="75" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sci Jep" target="22 Avenue Foch" id="76" weight="1">
+        <attvalues>
+          <attvalue for="2" value="OWNS" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="U.S. Customs and Border Protection" target="U.S. Department of Homeland Security" id="77" weight="1">
+        <attvalues>
+          <attvalue for="2" value="PART_OF" />
+          <attvalue for="3" value="0.99" />
+        </attvalues>
+      </edge>
+      <edge source="U.S. Customs and Border Protection" target="TECS-Person Encounter List" id="78" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RESPONSIBLE_FOR" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="TECS-Person Encounter List" target="Ghislaine Maxwell" id="79" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="Peter Simmer" target="At&amp;T" id="80" weight="1">
         <attvalues>
           <attvalue for="2" value="WORKS_FOR" />
-          <attvalue for="3" value="0.88" />
+          <attvalue for="3" value="0.99" />
+        </attvalues>
+      </edge>
+      <edge source="At&amp;T" target="North Palm Beach" id="81" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="At&amp;T" target="Força-Tarefa de Exploração Infantil e Tráfico Humano" id="82" weight="1">
+        <attvalues>
+          <attvalue for="2" value="COMMUNICATED_WITH" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="At&amp;T" target="Matter ID: 2750182" id="83" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002310" target="At&amp;T" id="84" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002311" target="At&amp;T" id="85" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002314" target="At&amp;T" id="86" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002315" target="At&amp;T" id="87" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002316" target="At&amp;T" id="88" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002317" target="At&amp;T" id="89" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002319" target="At&amp;T" id="90" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002322" target="At&amp;T" id="91" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Efta_00116408" target="At&amp;T" id="92" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002326" target="At&amp;T" id="93" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002329" target="At&amp;T" id="94" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002332" target="At&amp;T" id="95" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002334" target="At&amp;T" id="96" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002335" target="At&amp;T" id="97" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002336" target="At&amp;T" id="98" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002339" target="At&amp;T" id="99" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002341" target="At&amp;T" id="100" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002342" target="At&amp;T" id="101" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002344" target="At&amp;T" id="102" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002346" target="At&amp;T" id="103" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002347" target="At&amp;T" id="104" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002352" target="At&amp;T" id="105" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002354" target="At&amp;T" id="106" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002359" target="At&amp;T" id="107" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002365" target="At&amp;T" id="108" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002375" target="At&amp;T" id="109" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00002378" target="At&amp;T" id="110" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Efta_00116451" target="At&amp;T" id="111" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Citibank, N.A." target="Citigroup Inc." id="112" weight="1">
+        <attvalues>
+          <attvalue for="2" value="PART_OF" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Nikv. Itaas" target="United States" id="113" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Nikv. Itaas" target="Experian Information Solutions, Inc." id="114" weight="1">
+        <attvalues>
+          <attvalue for="2" value="WORKS_FOR" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Maurene Comey" target="United States" id="115" weight="1">
+        <attvalues>
+          <attvalue for="2" value="WORKS_FOR" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Maurene Comey" target="Intimação do Grande Júri" id="116" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RESPONSIBLE_FOR" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Intimação do Grande Júri" target="Experian Information Solutions, Inc." id="117" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Intimação do Grande Júri" target="Southwest Airlines Co." id="118" weight="1">
+        <attvalues>
+          <attvalue for="2" value="RELATED_TO" />
+          <attvalue for="3" value="0.92" />
+        </attvalues>
+      </edge>
+      <edge source="Southwest Airlines Co." target="Dallas" id="119" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="Gmax1" target="Google" id="120" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Conta Google 602199682141" target="Gmax1" id="121" weight="1">
+        <attvalues>
+          <attvalue for="2" value="CONNECTED_TO" />
+          <attvalue for="3" value="0.85" />
+        </attvalues>
+      </edge>
+      <edge source="YouTube" target="Google" id="122" weight="1">
+        <attvalues>
+          <attvalue for="2" value="PART_OF" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Segurança Global e Investigações" target="MoneyGram Payment Systems Inc." id="123" weight="1">
+        <attvalues>
+          <attvalue for="2" value="PART_OF" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="CT Corp" target="MoneyGram Payment Systems Inc." id="124" weight="1">
+        <attvalues>
+          <attvalue for="2" value="REPRESENTS" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="CT Corp" target="Wolters Kluwer" id="125" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="MoneyGram Online" target="MoneyGram Payment Systems Inc." id="126" weight="1">
+        <attvalues>
+          <attvalue for="2" value="PART_OF" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="MoneyGram Online" target="Brooklyn Center" id="127" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Brooklyn Center" target="Minnesota" id="128" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.99" />
+        </attvalues>
+      </edge>
+      <edge source="Minnesota" target="United States" id="129" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.99" />
+        </attvalues>
+      </edge>
+      <edge source="Larry Visoski" target="Aeroporto de Teterboro" id="130" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Larry Visoski" target="Aeroporto de Newark" id="131" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Lance Calloway" target="Aeroporto de Newark" id="132" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Lance Calloway" target="Aeroporto de Teterboro" id="133" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="John Roberts" target="Aeroporto de Teterboro" id="134" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Emarea Nowak" target="Bedford" id="135" weight="1">
+        <attvalues>
+          <attvalue for="2" value="TRAVELED_TO" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Clerk &amp; Comptroller Palm Beach County" target="Palm Beach County" id="136" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Alexander R. Acosta" target="United States" id="137" weight="1">
+        <attvalues>
+          <attvalue for="2" value="WORKS_FOR" />
+          <attvalue for="3" value="0.99" />
+        </attvalues>
+      </edge>
+      <edge source="Kenneth A. Marra" target="Tribunal Distrital Federal de West Palm Beach" id="138" weight="1">
+        <attvalues>
+          <attvalue for="2" value="WORKS_FOR" />
+          <attvalue for="3" value="0.99" />
+        </attvalues>
+      </edge>
+      <edge source="Tribunal Distrital Federal de West Palm Beach" target="West Palm Beach" id="139" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.99" />
+        </attvalues>
+      </edge>
+      <edge source="Palm Beach" target="Flórida" id="140" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="Jack Scarola" target="Jane Doe 1" id="141" weight="1">
+        <attvalues>
+          <attvalue for="2" value="REPRESENTS" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Jack Scarola" target="Jane Doe 2" id="142" weight="1">
+        <attvalues>
+          <attvalue for="2" value="REPRESENTS" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Bradley J. Edwards" target="Jane Doe 1" id="143" weight="1">
+        <attvalues>
+          <attvalue for="2" value="REPRESENTS" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Bradley J. Edwards" target="Jane Doe 2" id="144" weight="1">
+        <attvalues>
+          <attvalue for="2" value="REPRESENTS" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ben Sasse" target="United States" id="145" weight="1">
+        <attvalues>
+          <attvalue for="2" value="MEMBER_OF" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="Ben Sasse" target="Nebraska" id="146" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Ren Nathan" target="Southwest Airlines Co." id="147" weight="1">
+        <attvalues>
+          <attvalue for="2" value="WORKS_FOR" />
+          <attvalue for="3" value="0.99" />
+        </attvalues>
+      </edge>
+      <edge source="Ren Nathan" target="Intimação do Grande Júri" id="148" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="301 E 66th St" target="Nova York" id="149" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Conta Poupança Orange" target="ING Direct" id="150" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Conta Poupança Orange" target="Ing Direct" id="151" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Electric Orange" target="ING Direct" id="152" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Sorteio Automatic Saver" target="ING Direct" id="153" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.85" />
+        </attvalues>
+      </edge>
+      <edge source="Orange Savings Account" target="ING Direct" id="154" weight="1">
+        <attvalues>
+          <attvalue for="2" value="PART_OF" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Conta de Poupança Orange" target="ING Direct" id="155" weight="1">
+        <attvalues>
+          <attvalue for="2" value="CONNECTED_TO" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Sdny_Gm_00006116" target="Southern District of New York" id="156" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Capital One Services, LLC" target="Capital One, N.A." id="157" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Mark Lubin" target="Federal Bureau of Investigation" id="158" weight="1">
+        <attvalues>
+          <attvalue for="2" value="WORKS_FOR" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="Mark Lubin" target="Jeffrey Epstein" id="159" weight="1">
+        <attvalues>
+          <attvalue for="2" value="INVESTIGATED" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="9 East 71st Street" target="Nova York" id="160" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="Rayshawn Campbell" target="United States" id="161" weight="1">
+        <attvalues>
+          <attvalue for="2" value="WORKS_FOR" />
+          <attvalue for="3" value="0.99" />
+        </attvalues>
+      </edge>
+      <edge source="Rayshawn Campbell" target="Law Enforcement Relations Group" id="162" weight="1">
+        <attvalues>
+          <attvalue for="2" value="MEMBER_OF" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Law Enforcement Relations Group" target="United States" id="163" weight="1">
+        <attvalues>
+          <attvalue for="2" value="PART_OF" />
+          <attvalue for="3" value="0.92" />
+        </attvalues>
+      </edge>
+      <edge source="MetroPCS" target="United States" id="164" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.85" />
+        </attvalues>
+      </edge>
+      <edge source="Darren K. Indyke" target="Jeffrey Epstein" id="165" weight="1">
+        <attvalues>
+          <attvalue for="2" value="MANAGES" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Andrew Farkas" target="Jeffrey Epstein" id="166" weight="1">
+        <attvalues>
+          <attvalue for="2" value="MANAGES" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Jeffrey A. Schantz" target="Jeffrey Epstein" id="167" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="Jes Staley" target="Jeffrey Epstein" id="168" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.85" />
+        </attvalues>
+      </edge>
+      <edge source="Harry I. Beller" target="Nova York" id="169" weight="1">
+        <attvalues>
+          <attvalue for="2" value="ASSOCIATED_WITH" />
+          <attvalue for="3" value="0.9" />
+        </attvalues>
+      </edge>
+      <edge source="James E. Staley" target="Jeffrey Epstein" id="170" weight="1">
+        <attvalues>
+          <attvalue for="2" value="MANAGES" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="22 Avenue Foch" target="Paris" id="171" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="Maple, Inc." target="Ilhas Virgens Americanas" id="172" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Maple, Inc." target="9 East 71st Street" id="173" weight="1">
+        <attvalues>
+          <attvalue for="2" value="OWNS" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="Nautilus, Inc." target="Ilhas Virgens Americanas" id="174" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Nautilus, Inc." target="Little Saint James" id="175" weight="1">
+        <attvalues>
+          <attvalue for="2" value="OWNS" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="Nautilus, Inc." target="L.S.J., Llc" id="176" weight="1">
+        <attvalues>
+          <attvalue for="2" value="OWNS" />
+          <attvalue for="3" value="0.99" />
+        </attvalues>
+      </edge>
+      <edge source="Little Saint James" target="Ilhas Virgens Americanas" id="177" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="L.S.J., Llc" target="Delaware" id="178" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Cypress, Inc." target="Ilhas Virgens Americanas" id="179" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Cypress, Inc." target="Zorro Ranch" id="180" weight="1">
+        <attvalues>
+          <attvalue for="2" value="OWNS" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="Zorro Ranch" target="Stanley" id="181" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="Stanley" target="Novo México" id="182" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="Laurel, Inc." target="Ilhas Virgens Americanas" id="183" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.95" />
+        </attvalues>
+      </edge>
+      <edge source="Laurel, Inc." target="358 El Brillo Way" id="184" weight="1">
+        <attvalues>
+          <attvalue for="2" value="OWNS" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="358 El Brillo Way" target="Palm Beach" id="185" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.98" />
+        </attvalues>
+      </edge>
+      <edge source="Kcac, Llc" target="Nova Jersey" id="186" weight="1">
+        <attvalues>
+          <attvalue for="2" value="LOCATED_IN" />
+          <attvalue for="3" value="0.95" />
         </attvalues>
       </edge>
     </edges>

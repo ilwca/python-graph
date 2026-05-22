@@ -1,46 +1,1804 @@
 {
   "nodes": [
     {
-      "id": "Jeffrey Epstein",
-      "entity_type": "Pessoa"
+      "id": "Federal Bureau of Investigation",
+      "entity_type": "Organização"
     },
     {
       "id": "Ghislaine Maxwell",
       "entity_type": "Pessoa"
     },
     {
+      "id": "França",
+      "entity_type": "País"
+    },
+    {
+      "id": "United States",
+      "entity_type": "País"
+    },
+    {
+      "id": "Bradford",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "United States District Court for the Southern District of New York",
+      "entity_type": "Instituição"
+    },
+    {
+      "id": "Nova York",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Jeffrey Epstein",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Mandado de Busca e Apreensão",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Title 18, United States Code",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "U.S. Customs and Border Protection",
+      "entity_type": "Organização"
+    },
+    {
+      "id": "U.S. Department of Homeland Security",
+      "entity_type": "Organização"
+    },
+    {
+      "id": "TECS-Person Encounter List",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Londres",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Boston",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Miami",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Paris",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Los Angeles",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Tóquio",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Doha",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Montreal",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Sint Maarten",
+      "entity_type": "Local"
+    },
+    {
+      "id": "West Palm Beach",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Teterboro",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Ottawa",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Veneza",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Rio de Janeiro",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Hong Kong",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Barbados",
+      "entity_type": "País"
+    },
+    {
+      "id": "Ilhas Virgens Britânicas",
+      "entity_type": "País"
+    },
+    {
+      "id": "Nice",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Tel Aviv",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Amã",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Peter Simmer",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "At&T",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "North Palm Beach",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Força-Tarefa de Exploração Infantil e Tráfico Humano",
+      "entity_type": "Organização"
+    },
+    {
+      "id": "Matter ID: 2750182",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002310",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002311",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002314",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002315",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002316",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002317",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002319",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002322",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Efta_00116408",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002326",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002329",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002332",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002334",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002335",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002336",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002339",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002341",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002342",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002344",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002346",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002347",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002352",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002354",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002359",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002365",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002375",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Sdny_Gm_00002378",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Efta_00116451",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "SLK Designs LLC",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Citibank, N.A.",
+      "entity_type": "Instituição"
+    },
+    {
+      "id": "Citigroup Inc.",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Adp",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Oxford Health",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "The Hartford",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "CT Corporation",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Nikv. Itaas",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Experian Information Solutions, Inc.",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Maurene Comey",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Intimação do Grande Júri",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Gmax1",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Google",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Conta Google 602199682141",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "YouTube",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Segurança Global e Investigações",
+      "entity_type": "Organização"
+    },
+    {
+      "id": "MoneyGram Payment Systems Inc.",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "CT Corp",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Wolters Kluwer",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "MoneyGram Online",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Brooklyn Center",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Minnesota",
+      "entity_type": "Local"
+    },
+    {
+      "id": "Larry Visoski",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Aeroporto de Teterboro",
+      "entity_type": "Local"
+    },
+    {
+      "id": "Aeroporto de Newark",
+      "entity_type": "Local"
+    },
+    {
+      "id": "Lance Calloway",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Aeroporto de Luton",
+      "entity_type": "Local"
+    },
+    {
+      "id": "John Roberts",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Emarea Nowak",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Bedford",
+      "entity_type": "Local"
+    },
+    {
+      "id": "Processo Judicial 50-2006-CF-009454-AXXX-MB",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Processo Judicial 50-2008-CF-009381-AXXX-MB",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Clerk & Comptroller Palm Beach County",
+      "entity_type": "Instituição"
+    },
+    {
+      "id": "Palm Beach County",
+      "entity_type": "Local"
+    },
+    {
+      "id": "Alexander R. Acosta",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Kenneth A. Marra",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Tribunal Distrital Federal de West Palm Beach",
+      "entity_type": "Instituição"
+    },
+    {
+      "id": "Flórida",
+      "entity_type": "Local"
+    },
+    {
+      "id": "Donald Trump",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Bill Clinton",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Mansão de Palm Beach",
+      "entity_type": "Local"
+    },
+    {
+      "id": "Mansão de Nova York",
+      "entity_type": "Local"
+    },
+    {
+      "id": "Mansão das Ilhas Virgens",
+      "entity_type": "Local"
+    },
+    {
+      "id": "Palm Beach",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Ilhas Virgens",
+      "entity_type": "Local"
+    },
+    {
+      "id": "Jack Scarola",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Jane Doe 1",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Jane Doe 2",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Bradley J. Edwards",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Ben Sasse",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Nebraska",
+      "entity_type": "Local"
+    },
+    {
+      "id": "Ren Nathan",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Southwest Airlines Co.",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Dallas",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "301 E 66th St",
+      "entity_type": "Local"
+    },
+    {
+      "id": "Conta Poupança Orange",
+      "entity_type": "Operação Financeira"
+    },
+    {
+      "id": "ING Direct",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Electric Orange",
+      "entity_type": "Operação Financeira"
+    },
+    {
+      "id": "Sorteio Automatic Saver",
+      "entity_type": "Evento"
+    },
+    {
+      "id": "Orange Savings Account",
+      "entity_type": "Operação Financeira"
+    },
+    {
+      "id": "Ing Direct",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Conta de Poupança Orange",
+      "entity_type": "Operação Financeira"
+    },
+    {
+      "id": "Sdny_Gm_00006116",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Southern District of New York",
+      "entity_type": "Instituição"
+    },
+    {
+      "id": "Capital One, N.A.",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Capital One Services, LLC",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Chase Paynet",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Mark Lubin",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "6100 Red Hook Quarter B3, St. Thomas",
+      "entity_type": "Local"
+    },
+    {
+      "id": "PayPal",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Ann M. Rodriquez",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "9 East 71st Street",
+      "entity_type": "Local"
+    },
+    {
+      "id": "American Express",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Rayshawn Campbell",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Law Enforcement Relations Group",
+      "entity_type": "Organização"
+    },
+    {
+      "id": "MetroPCS",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Darren K. Indyke",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Andrew Farkas",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Jeffrey A. Schantz",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Jes Staley",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Original Trust Agreement",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Amended and Restated Trust Agreement",
+      "entity_type": "Documento"
+    },
+    {
+      "id": "Harry I. Beller",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "James E. Staley",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Sci Jep",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "22 Avenue Foch",
+      "entity_type": "Local"
+    },
+    {
+      "id": "Maple, Inc.",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Ilhas Virgens Americanas",
+      "entity_type": "País"
+    },
+    {
+      "id": "Nautilus, Inc.",
+      "entity_type": "Empresa"
+    },
+    {
       "id": "Little Saint James",
       "entity_type": "Local"
     },
     {
-      "id": "Bear Stearns",
-      "entity_type": "Organização"
+      "id": "L.S.J., Llc",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Delaware",
+      "entity_type": "Local"
+    },
+    {
+      "id": "Cypress, Inc.",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Zorro Ranch",
+      "entity_type": "Local"
+    },
+    {
+      "id": "Stanley",
+      "entity_type": "Cidade"
+    },
+    {
+      "id": "Novo México",
+      "entity_type": "Local"
+    },
+    {
+      "id": "Laurel, Inc.",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "358 El Brillo Way",
+      "entity_type": "Local"
+    },
+    {
+      "id": "Kcac, Llc",
+      "entity_type": "Empresa"
+    },
+    {
+      "id": "Nova Jersey",
+      "entity_type": "Local"
+    },
+    {
+      "id": "Karyna Shuliak",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Jean Luc Brunel",
+      "entity_type": "Pessoa"
+    },
+    {
+      "id": "Eva Dubin",
+      "entity_type": "Pessoa"
     }
   ],
   "edges": [
     {
-      "source": "EFTA_TEST.json",
+      "source": "EFTA01262782_processado.json",
       "target": "Ghislaine Maxwell",
-      "relation": "ASSOCIATED_WITH",
-      "confidence": 0.97
-    },
-    {
-      "source": "EFTA_TEST.json",
-      "target": "Little Saint James",
-      "relation": "OWNS",
+      "relation": "INVESTIGATED",
       "confidence": 0.95
     },
     {
-      "source": "EFTA_TEST.json",
-      "target": "Bear Stearns",
-      "relation": "WORKS_FOR",
+      "source": "EFTA01266023.json",
+      "target": "Nova York",
+      "relation": "LOCATED_IN",
+      "confidence": 0.99
+    },
+    {
+      "source": "EFTA01266023.json",
+      "target": "United States",
+      "relation": "PART_OF",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266056.json",
+      "target": "Jeffrey Epstein",
+      "relation": "INVESTIGATED",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266062.json",
+      "target": "Ann M. Rodriquez",
+      "relation": "INVESTIGATED",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01262782_processado.json",
+      "target": "França",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01262782_processado.json",
+      "target": "United States",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01262782_processado.json",
+      "target": "Bradford",
+      "relation": "LOCATED_IN",
       "confidence": 0.85
     },
     {
-      "source": "EFTA_TEST.json",
+      "source": "EFTA01263213_processado.json",
+      "target": "Londres",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "Boston",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "Nova York",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "Miami",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "Paris",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "Los Angeles",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "Tóquio",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "Doha",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "Montreal",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "Sint Maarten",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "West Palm Beach",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "Teterboro",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "Ottawa",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "Veneza",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "Rio de Janeiro",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "Hong Kong",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "Barbados",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "Ilhas Virgens Britânicas",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "Nice",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "Tel Aviv",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "Amã",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265814.json",
+      "target": "Aeroporto de Luton",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.92
+    },
+    {
+      "source": "EFTA01265910_processado.json",
+      "target": "Miami",
+      "relation": "LOCATED_IN",
+      "confidence": 0.99
+    },
+    {
+      "source": "EFTA01265910_processado.json",
       "target": "Jeffrey Epstein",
+      "relation": "INVESTIGATED",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266023.json",
+      "target": "Capital One, N.A.",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01262956_processado.json",
+      "target": "Nova York",
+      "relation": "LOCATED_IN",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266062.json",
+      "target": "United States",
+      "relation": "LOCATED_IN",
+      "confidence": 0.99
+    },
+    {
+      "source": "EFTA01262956_processado.json",
+      "target": "Mandado de Busca e Apreensão",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01262956_processado.json",
+      "target": "Title 18, United States Code",
+      "relation": "RELATED_TO",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01265245_processado.json",
+      "target": "SLK Designs LLC",
+      "relation": "TRANSFERRED_MONEY_TO",
+      "confidence": 0.99
+    },
+    {
+      "source": "EFTA01265900.json",
+      "target": "Processo Judicial 50-2006-CF-009454-AXXX-MB",
+      "relation": "RELATED_TO",
+      "confidence": 0.99
+    },
+    {
+      "source": "EFTA01265900.json",
+      "target": "Processo Judicial 50-2008-CF-009381-AXXX-MB",
+      "relation": "RELATED_TO",
+      "confidence": 0.99
+    },
+    {
+      "source": "EFTA01265910_processado.json",
+      "target": "Donald Trump",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265910_processado.json",
+      "target": "Bill Clinton",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265910_processado.json",
+      "target": "Mansão de Palm Beach",
+      "relation": "OWNS",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01265910_processado.json",
+      "target": "Mansão de Nova York",
+      "relation": "OWNS",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01265910_processado.json",
+      "target": "Mansão das Ilhas Virgens",
+      "relation": "OWNS",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01266052.json",
+      "target": "Nova York",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01266056.json",
+      "target": "Chase Paynet",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.85
+    },
+    {
+      "source": "EFTA01266059_processado.json",
+      "target": "6100 Red Hook Quarter B3, St. Thomas",
+      "relation": "CONNECTED_TO",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01266059_processado.json",
+      "target": "PayPal",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266357_processado.json",
+      "target": "Original Trust Agreement",
+      "relation": "RESPONSIBLE_FOR",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266357_processado.json",
+      "target": "Amended and Restated Trust Agreement",
+      "relation": "RESPONSIBLE_FOR",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "Sci Jep",
+      "relation": "OWNS",
+      "confidence": 0.99
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "Ghislaine Maxwell",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "Karyna Shuliak",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "Jean Luc Brunel",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "Eva Dubin",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01262956_processado.json",
+      "target": "Title 18, United States Code",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "U.S. Department of Homeland Security",
+      "relation": "PART_OF",
+      "confidence": 0.99
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "TECS-Person Encounter List",
+      "relation": "RESPONSIBLE_FOR",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01263213_processado.json",
+      "target": "Ghislaine Maxwell",
+      "relation": "RELATED_TO",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "França",
+      "relation": "LOCATED_IN",
+      "confidence": 0.99
+    },
+    {
+      "source": "EFTA01265910_processado.json",
+      "target": "Flórida",
+      "relation": "LOCATED_IN",
+      "confidence": 0.99
+    },
+    {
+      "source": "EFTA01264394.json",
+      "target": "At&T",
       "relation": "WORKS_FOR",
-      "confidence": 0.88
+      "confidence": 0.99
+    },
+    {
+      "source": "EFTA01264394.json",
+      "target": "North Palm Beach",
+      "relation": "LOCATED_IN",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264394.json",
+      "target": "Força-Tarefa de Exploração Infantil e Tráfico Humano",
+      "relation": "COMMUNICATED_WITH",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01264405.json",
+      "target": "Matter ID: 2750182",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01264521.json",
+      "target": "At&T",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265245_processado.json",
+      "target": "Nova York",
+      "relation": "LOCATED_IN",
+      "confidence": 0.99
+    },
+    {
+      "source": "EFTA01265245_processado.json",
+      "target": "Citibank, N.A.",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01265245_processado.json",
+      "target": "Adp",
+      "relation": "TRANSFERRED_MONEY_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265245_processado.json",
+      "target": "Oxford Health",
+      "relation": "TRANSFERRED_MONEY_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265245_processado.json",
+      "target": "The Hartford",
+      "relation": "TRANSFERRED_MONEY_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265245_processado.json",
+      "target": "CT Corporation",
+      "relation": "TRANSFERRED_MONEY_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265245_processado.json",
+      "target": "Citigroup Inc.",
+      "relation": "PART_OF",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265479.json",
+      "target": "United States",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265479.json",
+      "target": "Experian Information Solutions, Inc.",
+      "relation": "WORKS_FOR",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01265479.json",
+      "target": "United States",
+      "relation": "WORKS_FOR",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01265479.json",
+      "target": "Intimação do Grande Júri",
+      "relation": "RESPONSIBLE_FOR",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265479.json",
+      "target": "Experian Information Solutions, Inc.",
+      "relation": "RELATED_TO",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01266013.json",
+      "target": "Southwest Airlines Co.",
+      "relation": "RELATED_TO",
+      "confidence": 0.92
+    },
+    {
+      "source": "EFTA01265485.json",
+      "target": "Google",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01265485.json",
+      "target": "Gmax1",
+      "relation": "CONNECTED_TO",
+      "confidence": 0.85
+    },
+    {
+      "source": "EFTA01265485.json",
+      "target": "Google",
+      "relation": "PART_OF",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265800_processado.json",
+      "target": "MoneyGram Payment Systems Inc.",
+      "relation": "PART_OF",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265800_processado.json",
+      "target": "MoneyGram Payment Systems Inc.",
+      "relation": "REPRESENTS",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01265800_processado.json",
+      "target": "Wolters Kluwer",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265800_processado.json",
+      "target": "MoneyGram Payment Systems Inc.",
+      "relation": "PART_OF",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265800_processado.json",
+      "target": "Brooklyn Center",
+      "relation": "LOCATED_IN",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01265800_processado.json",
+      "target": "Minnesota",
+      "relation": "LOCATED_IN",
+      "confidence": 0.99
+    },
+    {
+      "source": "EFTA01265800_processado.json",
+      "target": "United States",
+      "relation": "LOCATED_IN",
+      "confidence": 0.99
+    },
+    {
+      "source": "EFTA01265814.json",
+      "target": "Aeroporto de Teterboro",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265814.json",
+      "target": "Aeroporto de Newark",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265814.json",
+      "target": "Aeroporto de Newark",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265814.json",
+      "target": "Aeroporto de Teterboro",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265814.json",
+      "target": "Aeroporto de Teterboro",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01265814.json",
+      "target": "Bedford",
+      "relation": "TRAVELED_TO",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01265900.json",
+      "target": "Clerk & Comptroller Palm Beach County",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265900.json",
+      "target": "Clerk & Comptroller Palm Beach County",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265900.json",
+      "target": "Palm Beach County",
+      "relation": "LOCATED_IN",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265910_processado.json",
+      "target": "United States",
+      "relation": "WORKS_FOR",
+      "confidence": 0.99
+    },
+    {
+      "source": "EFTA01265910_processado.json",
+      "target": "Tribunal Distrital Federal de West Palm Beach",
+      "relation": "WORKS_FOR",
+      "confidence": 0.99
+    },
+    {
+      "source": "EFTA01265910_processado.json",
+      "target": "West Palm Beach",
+      "relation": "LOCATED_IN",
+      "confidence": 0.99
+    },
+    {
+      "source": "EFTA01265910_processado.json",
+      "target": "Palm Beach",
+      "relation": "LOCATED_IN",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265910_processado.json",
+      "target": "Nova York",
+      "relation": "LOCATED_IN",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265910_processado.json",
+      "target": "Ilhas Virgens",
+      "relation": "LOCATED_IN",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "Flórida",
+      "relation": "LOCATED_IN",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01265910_processado.json",
+      "target": "Jane Doe 1",
+      "relation": "REPRESENTS",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265910_processado.json",
+      "target": "Jane Doe 2",
+      "relation": "REPRESENTS",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265910_processado.json",
+      "target": "Jane Doe 1",
+      "relation": "REPRESENTS",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265910_processado.json",
+      "target": "Jane Doe 2",
+      "relation": "REPRESENTS",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01265910_processado.json",
+      "target": "United States",
+      "relation": "MEMBER_OF",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01265910_processado.json",
+      "target": "Nebraska",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266013.json",
+      "target": "Southwest Airlines Co.",
+      "relation": "WORKS_FOR",
+      "confidence": 0.99
+    },
+    {
+      "source": "EFTA01266013.json",
+      "target": "Intimação do Grande Júri",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01266013.json",
+      "target": "Dallas",
+      "relation": "LOCATED_IN",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01266014.json",
+      "target": "Nova York",
+      "relation": "LOCATED_IN",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266014.json",
+      "target": "ING Direct",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01266018.json",
+      "target": "Ing Direct",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266014.json",
+      "target": "ING Direct",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01266014.json",
+      "target": "ING Direct",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.85
+    },
+    {
+      "source": "EFTA01266017.json",
+      "target": "ING Direct",
+      "relation": "PART_OF",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266019.json",
+      "target": "ING Direct",
+      "relation": "CONNECTED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266019.json",
+      "target": "Southern District of New York",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01266023.json",
+      "target": "Federal Bureau of Investigation",
+      "relation": "COMMUNICATED_WITH",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01266023.json",
+      "target": "Capital One, N.A.",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266059_processado.json",
+      "target": "Federal Bureau of Investigation",
+      "relation": "WORKS_FOR",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01266059_processado.json",
+      "target": "Jeffrey Epstein",
+      "relation": "INVESTIGATED",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266062.json",
+      "target": "9 East 71st Street",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266062.json",
+      "target": "American Express",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266062.json",
+      "target": "Nova York",
+      "relation": "LOCATED_IN",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01266117.json",
+      "target": "United States",
+      "relation": "WORKS_FOR",
+      "confidence": 0.99
+    },
+    {
+      "source": "EFTA01266117.json",
+      "target": "Law Enforcement Relations Group",
+      "relation": "MEMBER_OF",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01266117.json",
+      "target": "United States",
+      "relation": "PART_OF",
+      "confidence": 0.92
+    },
+    {
+      "source": "EFTA01266117.json",
+      "target": "United States",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.85
+    },
+    {
+      "source": "EFTA01266357_processado.json",
+      "target": "Jeffrey Epstein",
+      "relation": "MANAGES",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266357_processado.json",
+      "target": "Jeffrey Epstein",
+      "relation": "MANAGES",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266357_processado.json",
+      "target": "Jeffrey Epstein",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01266357_processado.json",
+      "target": "Jeffrey Epstein",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.85
+    },
+    {
+      "source": "EFTA01266357_processado.json",
+      "target": "Jeffrey Epstein",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266357_processado.json",
+      "target": "Jeffrey Epstein",
+      "relation": "RELATED_TO",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266357_processado.json",
+      "target": "Nova York",
+      "relation": "ASSOCIATED_WITH",
+      "confidence": 0.9
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "Jeffrey Epstein",
+      "relation": "MANAGES",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "França",
+      "relation": "LOCATED_IN",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "22 Avenue Foch",
+      "relation": "OWNS",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "Paris",
+      "relation": "LOCATED_IN",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "Ilhas Virgens Americanas",
+      "relation": "LOCATED_IN",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "9 East 71st Street",
+      "relation": "OWNS",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "Ilhas Virgens Americanas",
+      "relation": "LOCATED_IN",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "Little Saint James",
+      "relation": "OWNS",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "L.S.J., Llc",
+      "relation": "OWNS",
+      "confidence": 0.99
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "Ilhas Virgens Americanas",
+      "relation": "LOCATED_IN",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "Delaware",
+      "relation": "LOCATED_IN",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "Ilhas Virgens Americanas",
+      "relation": "LOCATED_IN",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "Zorro Ranch",
+      "relation": "OWNS",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "Stanley",
+      "relation": "LOCATED_IN",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "Novo México",
+      "relation": "LOCATED_IN",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "Ilhas Virgens Americanas",
+      "relation": "LOCATED_IN",
+      "confidence": 0.95
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "358 El Brillo Way",
+      "relation": "OWNS",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "Palm Beach",
+      "relation": "LOCATED_IN",
+      "confidence": 0.98
+    },
+    {
+      "source": "EFTA01266359.json",
+      "target": "Nova Jersey",
+      "relation": "LOCATED_IN",
+      "confidence": 0.95
     }
   ]
 }

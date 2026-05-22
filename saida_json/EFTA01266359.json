@@ -1,0 +1,242 @@
+[
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "FOUNDED",
+    "object": "The Jeffrey E. Epstein 2012 Trust",
+    "subject_type": "Pessoa",
+    "object_type": "Organização",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Darren K. Indyke",
+    "predicate": "MANAGES",
+    "object": "The Jeffrey E. Epstein 2012 Trust",
+    "subject_type": "Pessoa",
+    "object_type": "Organização",
+    "confidence": 0.98
+  },
+  {
+    "subject": "James E. Staley",
+    "predicate": "MANAGES",
+    "object": "The Jeffrey E. Epstein 2012 Trust",
+    "subject_type": "Pessoa",
+    "object_type": "Organização",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Andrew Farkas",
+    "predicate": "MANAGES",
+    "object": "The Jeffrey E. Epstein 2012 Trust",
+    "subject_type": "Pessoa",
+    "object_type": "Organização",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "OWNS",
+    "object": "SCI JEP",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.99
+  },
+  {
+    "subject": "SCI JEP",
+    "predicate": "LOCATED_IN",
+    "object": "França",
+    "subject_type": "Empresa",
+    "object_type": "País",
+    "confidence": 0.95
+  },
+  {
+    "subject": "SCI JEP",
+    "predicate": "OWNS",
+    "object": "22 Avenue Foch",
+    "subject_type": "Empresa",
+    "object_type": "Local",
+    "confidence": 0.98
+  },
+  {
+    "subject": "22 Avenue Foch",
+    "predicate": "LOCATED_IN",
+    "object": "Paris",
+    "subject_type": "Local",
+    "object_type": "Cidade",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Paris",
+    "predicate": "LOCATED_IN",
+    "object": "França",
+    "subject_type": "Cidade",
+    "object_type": "País",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Maple, Inc.",
+    "predicate": "LOCATED_IN",
+    "object": "Ilhas Virgens Americanas",
+    "subject_type": "Empresa",
+    "object_type": "País",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Maple, Inc.",
+    "predicate": "OWNS",
+    "object": "9 East 71st Street",
+    "subject_type": "Empresa",
+    "object_type": "Local",
+    "confidence": 0.98
+  },
+  {
+    "subject": "9 East 71st Street",
+    "predicate": "LOCATED_IN",
+    "object": "Nova York",
+    "subject_type": "Local",
+    "object_type": "Cidade",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Nautilus, Inc.",
+    "predicate": "LOCATED_IN",
+    "object": "Ilhas Virgens Americanas",
+    "subject_type": "Empresa",
+    "object_type": "País",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Nautilus, Inc.",
+    "predicate": "OWNS",
+    "object": "Little St. James Island",
+    "subject_type": "Empresa",
+    "object_type": "Local",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Nautilus, Inc.",
+    "predicate": "OWNS",
+    "object": "L.S.J., LLC",
+    "subject_type": "Empresa",
+    "object_type": "Empresa",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Little St. James Island",
+    "predicate": "LOCATED_IN",
+    "object": "Ilhas Virgens Americanas",
+    "subject_type": "Local",
+    "object_type": "País",
+    "confidence": 0.98
+  },
+  {
+    "subject": "L.S.J., LLC",
+    "predicate": "LOCATED_IN",
+    "object": "Delaware",
+    "subject_type": "Empresa",
+    "object_type": "Local",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Cypress, Inc.",
+    "predicate": "LOCATED_IN",
+    "object": "Ilhas Virgens Americanas",
+    "subject_type": "Empresa",
+    "object_type": "País",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Cypress, Inc.",
+    "predicate": "OWNS",
+    "object": "Zorro Ranch",
+    "subject_type": "Empresa",
+    "object_type": "Local",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Zorro Ranch",
+    "predicate": "LOCATED_IN",
+    "object": "Stanley",
+    "subject_type": "Local",
+    "object_type": "Cidade",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Stanley",
+    "predicate": "LOCATED_IN",
+    "object": "Novo México",
+    "subject_type": "Cidade",
+    "object_type": "Local",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Laurel, Inc.",
+    "predicate": "LOCATED_IN",
+    "object": "Ilhas Virgens Americanas",
+    "subject_type": "Empresa",
+    "object_type": "País",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Laurel, Inc.",
+    "predicate": "OWNS",
+    "object": "358 El Brillo Way",
+    "subject_type": "Empresa",
+    "object_type": "Local",
+    "confidence": 0.98
+  },
+  {
+    "subject": "358 El Brillo Way",
+    "predicate": "LOCATED_IN",
+    "object": "Palm Beach",
+    "subject_type": "Local",
+    "object_type": "Cidade",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Palm Beach",
+    "predicate": "LOCATED_IN",
+    "object": "Flórida",
+    "subject_type": "Cidade",
+    "object_type": "Local",
+    "confidence": 0.98
+  },
+  {
+    "subject": "KCAC, LLC",
+    "predicate": "LOCATED_IN",
+    "object": "Nova Jersey",
+    "subject_type": "Empresa",
+    "object_type": "Local",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Ghislaine N. Maxwell",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Karyna Shuliak",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Jean Luc Brunel",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Jeffrey E. Epstein",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Eva Dubin",
+    "subject_type": "Pessoa",
+    "object_type": "Pessoa",
+    "confidence": 0.95
+  }
+]

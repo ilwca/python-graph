@@ -1,0 +1,10 @@
+[
+  {
+    "subject": "Jeffrey Epstein",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Nova York",
+    "subject_type": "Pessoa",
+    "object_type": "Cidade",
+    "confidence": 0.9
+  }
+]

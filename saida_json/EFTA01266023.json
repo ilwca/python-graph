@@ -1,0 +1,42 @@
+[
+  {
+    "subject": "Federal Bureau of Investigation",
+    "predicate": "LOCATED_IN",
+    "object": "Nova York",
+    "subject_type": "Organização",
+    "object_type": "Cidade",
+    "confidence": 0.99
+  },
+  {
+    "subject": "Capital One Bank (USA), N.A.",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Capital One, N.A.",
+    "subject_type": "Empresa",
+    "object_type": "Empresa",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Capital One Services, LLC",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "Capital One, N.A.",
+    "subject_type": "Empresa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Federal Bureau of Investigation",
+    "predicate": "PART_OF",
+    "object": "Governo dos Estados Unidos",
+    "subject_type": "Organização",
+    "object_type": "Instituição",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Capital One, N.A.",
+    "predicate": "COMMUNICATED_WITH",
+    "object": "Federal Bureau of Investigation",
+    "subject_type": "Empresa",
+    "object_type": "Organização",
+    "confidence": 0.9
+  }
+]

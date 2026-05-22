@@ -1,0 +1,50 @@
+[
+  {
+    "subject": "Ann M. Rodriquez",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "9 East 71st Street",
+    "subject_type": "Pessoa",
+    "object_type": "Local",
+    "confidence": 0.95
+  },
+  {
+    "subject": "9 East 71st Street",
+    "predicate": "LOCATED_IN",
+    "object": "Nova York",
+    "subject_type": "Local",
+    "object_type": "Cidade",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Nova York",
+    "predicate": "LOCATED_IN",
+    "object": "Estados Unidos",
+    "subject_type": "Cidade",
+    "object_type": "País",
+    "confidence": 0.99
+  },
+  {
+    "subject": "FBI",
+    "predicate": "LOCATED_IN",
+    "object": "Nova York",
+    "subject_type": "Organização",
+    "object_type": "Cidade",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Ann M. Rodriquez",
+    "predicate": "ASSOCIATED_WITH",
+    "object": "American Express",
+    "subject_type": "Pessoa",
+    "object_type": "Empresa",
+    "confidence": 0.95
+  },
+  {
+    "subject": "FBI",
+    "predicate": "INVESTIGATED",
+    "object": "Ann M. Rodriquez",
+    "subject_type": "Organização",
+    "object_type": "Pessoa",
+    "confidence": 0.9
+  }
+]

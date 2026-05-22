@@ -9,10 +9,9 @@ wheels/
 # Virtual environments
 .venv
 
+# Secrets
+.env
+
 #arquivos gerados
 saida-old/
 saida/
-da mesma forma que @main.py faz, crie um arquivo de gpt-agent.py que usa a 
-  API do chatgpt para executar o mesmo prompt com a mesma finalidade de 
-  main.py, ou somente edite o arquivo @main.py de modo que Seja escolhido qual
-  API usar, creio que esta seja a melhor abordagem 

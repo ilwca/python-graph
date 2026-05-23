@@ -1,0 +1,2999 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d12" for="edge" attr.name="source_file" attr.type="string" />
+  <key id="d11" for="edge" attr.name="confidence" attr.type="string" />
+  <key id="d10" for="edge" attr.name="relations" attr.type="string" />
+  <key id="d9" for="edge" attr.name="weight" attr.type="string" />
+  <key id="d8" for="node" attr.name="community_id" attr.type="long" />
+  <key id="d7" for="node" attr.name="pagerank" attr.type="double" />
+  <key id="d6" for="node" attr.name="eigenvector_centrality" attr.type="double" />
+  <key id="d5" for="node" attr.name="closeness_centrality" attr.type="double" />
+  <key id="d4" for="node" attr.name="betweenness_centrality" attr.type="double" />
+  <key id="d3" for="node" attr.name="degree_centrality" attr.type="double" />
+  <key id="d2" for="node" attr.name="degree" attr.type="long" />
+  <key id="d1" for="node" attr.name="aliases" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Federal Bureau of Investigation">
+      <data key="d0">Organização</data>
+      <data key="d1">Fbi</data>
+      <data key="d2">7</data>
+      <data key="d3">0.041667</data>
+      <data key="d4">0.008121</data>
+      <data key="d5">0.054181</data>
+      <data key="d6">0.062411</data>
+      <data key="d7">0.020009</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="Ghislaine Maxwell">
+      <data key="d0">Pessoa</data>
+      <data key="d1">Ghislaine N. Maxwell</data>
+      <data key="d2">28</data>
+      <data key="d3">0.166667</data>
+      <data key="d4">0.030849</data>
+      <data key="d5">0.070214</data>
+      <data key="d6">0.165273</data>
+      <data key="d7">0.011414</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="França">
+      <data key="d0">País</data>
+      <data key="d1" />
+      <data key="d2">3</data>
+      <data key="d3">0.017857</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.062739</data>
+      <data key="d6">0.191727</data>
+      <data key="d7">0.01143</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="United States">
+      <data key="d0">País</data>
+      <data key="d1">Capital One Bank (USA), N.A. | Departamento de Justiça dos Estados Unidos | Departamento do Trabalho dos Estados Unidos | Estados Unidos | Governo dos Estados Unidos | Procuradoria Federal dos Estados Unidos | Procuradoria dos Estados Unidos em Miami | Senado dos Estados Unidos | T-Mobile, U.S.A., Inc</data>
+      <data key="d2">14</data>
+      <data key="d3">0.083333</data>
+      <data key="d4">0.046615</data>
+      <data key="d5">0.099724</data>
+      <data key="d6">0.283589</data>
+      <data key="d7">0.047343</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="Bradford">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.054825</data>
+      <data key="d6">0.077532</data>
+      <data key="d7">0.003264</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="United States District Court for the Southern District of New York">
+      <data key="d0">Instituição</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="Nova York">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">10</data>
+      <data key="d3">0.059524</data>
+      <data key="d4">0.018071</data>
+      <data key="d5">0.092986</data>
+      <data key="d6">0.37684</data>
+      <data key="d7">0.025889</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="Jeffrey Epstein">
+      <data key="d0">Pessoa</data>
+      <data key="d1">Acordo de Não Processamento de Jeffrey Epstein | Jeffrey E. Epstein | The Jeffrey E. Epstein 2001 Trust Two | The Jeffrey E. Epstein 2012 Trust</data>
+      <data key="d2">31</data>
+      <data key="d3">0.184524</data>
+      <data key="d4">0.061953</data>
+      <data key="d5">0.091746</data>
+      <data key="d6">0.289902</data>
+      <data key="d7">0.040831</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Mandado de Busca e Apreensão">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.066288</data>
+      <data key="d6">0.135993</data>
+      <data key="d7">0.004528</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Title 18, United States Code">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.069498</data>
+      <data key="d6">0.199786</data>
+      <data key="d7">0.008376</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="U.S. Customs and Border Protection">
+      <data key="d0">Organização</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="U.S. Department of Homeland Security">
+      <data key="d0">Organização</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.005952</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.004098</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="TECS-Person Encounter List">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.002246</data>
+      <data key="d5">0.005952</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.004098</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="Londres">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.054825</data>
+      <data key="d6">0.077532</data>
+      <data key="d7">0.003264</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="Boston">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.054825</data>
+      <data key="d6">0.077532</data>
+      <data key="d7">0.003264</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="Miami">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.078405</data>
+      <data key="d6">0.210568</data>
+      <data key="d7">0.016676</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="Paris">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">3</data>
+      <data key="d3">0.017857</data>
+      <data key="d4">3.6e-05</data>
+      <data key="d5">0.059918</data>
+      <data key="d6">0.107453</data>
+      <data key="d7">0.007344</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="Los Angeles">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.054825</data>
+      <data key="d6">0.077532</data>
+      <data key="d7">0.003264</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="Tóquio">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.054825</data>
+      <data key="d6">0.077532</data>
+      <data key="d7">0.003264</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="Doha">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.054825</data>
+      <data key="d6">0.077532</data>
+      <data key="d7">0.003264</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="Montreal">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.054825</data>
+      <data key="d6">0.077532</data>
+      <data key="d7">0.003264</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="Sint Maarten">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.054825</data>
+      <data key="d6">0.077532</data>
+      <data key="d7">0.003264</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="West Palm Beach">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">3</data>
+      <data key="d3">0.017857</data>
+      <data key="d4">0.000808</data>
+      <data key="d5">0.059918</data>
+      <data key="d6">0.077532</data>
+      <data key="d7">0.007786</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="Teterboro">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.054825</data>
+      <data key="d6">0.077532</data>
+      <data key="d7">0.003264</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="Ottawa">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.054825</data>
+      <data key="d6">0.077532</data>
+      <data key="d7">0.003264</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="Veneza">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.054825</data>
+      <data key="d6">0.077532</data>
+      <data key="d7">0.003264</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="Rio de Janeiro">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.054825</data>
+      <data key="d6">0.077532</data>
+      <data key="d7">0.003264</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="Hong Kong">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.054825</data>
+      <data key="d6">0.077532</data>
+      <data key="d7">0.003264</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="Barbados">
+      <data key="d0">País</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.054825</data>
+      <data key="d6">0.077532</data>
+      <data key="d7">0.003264</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="Ilhas Virgens Britânicas">
+      <data key="d0">País</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.054825</data>
+      <data key="d6">0.077532</data>
+      <data key="d7">0.003264</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="Nice">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.054825</data>
+      <data key="d6">0.077532</data>
+      <data key="d7">0.003264</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="Tel Aviv">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.054825</data>
+      <data key="d6">0.077532</data>
+      <data key="d7">0.003264</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="Amã">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.054825</data>
+      <data key="d6">0.077532</data>
+      <data key="d7">0.003264</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="Peter Simmer">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="At&amp;T">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">32</data>
+      <data key="d3">0.190476</data>
+      <data key="d4">0.003101</data>
+      <data key="d5">0.172619</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.073759</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="North Palm Beach">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.090799</data>
+      <data key="d6">1e-06</data>
+      <data key="d7">0.023779</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Força-Tarefa de Exploração Infantil e Tráfico Humano">
+      <data key="d0">Organização</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.090799</data>
+      <data key="d6">1e-06</data>
+      <data key="d7">0.023779</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Matter ID: 2750182">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.090799</data>
+      <data key="d6">1e-06</data>
+      <data key="d7">0.023779</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002310">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002311">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002314">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002315">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002316">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002317">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002319">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002322">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Efta_00116408">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002326">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002329">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002332">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002334">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002335">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002336">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002339">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002341">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002342">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002344">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002346">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002347">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002352">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002354">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002359">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002365">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002375">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Sdny_Gm_00002378">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="Efta_00116451">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">6</data>
+    </node>
+    <node id="SLK Designs LLC">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">7</data>
+      <data key="d3">0.041667</data>
+      <data key="d4">0.007271</data>
+      <data key="d5">0.064915</data>
+      <data key="d6">0.135993</data>
+      <data key="d7">0.004528</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="Citibank, N.A.">
+      <data key="d0">Instituição</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.001248</data>
+      <data key="d5">0.051714</data>
+      <data key="d6">0.063793</data>
+      <data key="d7">0.003517</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="Citigroup Inc.">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.043584</data>
+      <data key="d6">0.029922</data>
+      <data key="d7">0.005865</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="Adp">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.051714</data>
+      <data key="d6">0.063793</data>
+      <data key="d7">0.003517</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="Oxford Health">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.051714</data>
+      <data key="d6">0.063793</data>
+      <data key="d7">0.003517</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="The Hartford">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.051714</data>
+      <data key="d6">0.063793</data>
+      <data key="d7">0.003517</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="CT Corporation">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.051714</data>
+      <data key="d6">0.063793</data>
+      <data key="d7">0.003517</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="Nikv. Itaas">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="Experian Information Solutions, Inc.">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.015873</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.006359</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="Maurene Comey">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="Intimação do Grande Júri">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">4</data>
+      <data key="d3">0.02381</data>
+      <data key="d4">0.000143</data>
+      <data key="d5">0.011905</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.00532</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="Gmax1">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">3.6e-05</data>
+      <data key="d5">0.005952</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.00532</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="Google">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.013393</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.009842</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="Conta Google 602199682141">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="YouTube">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">8</data>
+    </node>
+    <node id="Segurança Global e Investigações">
+      <data key="d0">Organização</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="MoneyGram Payment Systems Inc.">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">3</data>
+      <data key="d3">0.017857</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.017857</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.007764</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="CT Corp">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="Wolters Kluwer">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.005952</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.004098</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="MoneyGram Online">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="Brooklyn Center">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.002281</data>
+      <data key="d5">0.005952</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.004098</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="Minnesota">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.004491</data>
+      <data key="d5">0.007937</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.006359</data>
+      <data key="d8">9</data>
+    </node>
+    <node id="Larry Visoski">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="Aeroporto de Teterboro">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">3</data>
+      <data key="d3">0.017857</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.017857</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.007764</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="Aeroporto de Newark">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.011905</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.00532</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="Lance Calloway">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="Aeroporto de Luton">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.054825</data>
+      <data key="d6">0.077532</data>
+      <data key="d7">0.003264</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="John Roberts">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">10</data>
+    </node>
+    <node id="Emarea Nowak">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">11</data>
+    </node>
+    <node id="Bedford">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.005952</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.00532</data>
+      <data key="d8">11</data>
+    </node>
+    <node id="Processo Judicial 50-2006-CF-009454-AXXX-MB">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.001248</data>
+      <data key="d5">0.066288</data>
+      <data key="d6">0.135993</data>
+      <data key="d7">0.004528</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Processo Judicial 50-2008-CF-009381-AXXX-MB">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.001248</data>
+      <data key="d5">0.066288</data>
+      <data key="d6">0.135993</data>
+      <data key="d7">0.004528</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Clerk &amp; Comptroller Palm Beach County">
+      <data key="d0">Instituição</data>
+      <data key="d1" />
+      <data key="d2">3</data>
+      <data key="d3">0.017857</data>
+      <data key="d4">0.001319</data>
+      <data key="d5">0.055434</data>
+      <data key="d6">0.127585</data>
+      <data key="d7">0.010572</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Palm Beach County">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.046461</data>
+      <data key="d6">0.059843</data>
+      <data key="d7">0.011864</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Alexander R. Acosta">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="Kenneth A. Marra">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="Tribunal Distrital Federal de West Palm Beach">
+      <data key="d0">Instituição</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">7.1e-05</data>
+      <data key="d5">0.005952</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.00532</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="Flórida">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.057692</data>
+      <data key="d6">0.066294</data>
+      <data key="d7">0.018172</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="Donald Trump">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.066288</data>
+      <data key="d6">0.135993</data>
+      <data key="d7">0.004528</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Bill Clinton">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.066288</data>
+      <data key="d6">0.135993</data>
+      <data key="d7">0.004528</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Mansão de Palm Beach">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.001758</data>
+      <data key="d5">0.066288</data>
+      <data key="d6">0.135993</data>
+      <data key="d7">0.004528</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="Mansão de Nova York">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.064915</data>
+      <data key="d6">0.135993</data>
+      <data key="d7">0.004528</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="Mansão das Ilhas Virgens">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.001248</data>
+      <data key="d5">0.066288</data>
+      <data key="d6">0.135993</data>
+      <data key="d7">0.004528</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Palm Beach">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">3</data>
+      <data key="d3">0.017857</data>
+      <data key="d4">0.000618</data>
+      <data key="d5">0.057686</data>
+      <data key="d6">0.063793</data>
+      <data key="d7">0.010207</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="Ilhas Virgens">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.052838</data>
+      <data key="d6">0.063793</data>
+      <data key="d7">0.006724</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Jack Scarola">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">13</data>
+    </node>
+    <node id="Jane Doe 1">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.011905</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.00532</data>
+      <data key="d8">13</data>
+    </node>
+    <node id="Jane Doe 2">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.011905</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.00532</data>
+      <data key="d8">13</data>
+    </node>
+    <node id="Bradley J. Edwards">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">13</data>
+    </node>
+    <node id="Ben Sasse">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="Nebraska">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.005952</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.004098</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="Ren Nathan">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="Southwest Airlines Co.">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">3</data>
+      <data key="d3">0.017857</data>
+      <data key="d4">0.000107</data>
+      <data key="d5">0.013393</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.006359</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="Dallas">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.011905</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.008281</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="301 E 66th St">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="Conta Poupança Orange">
+      <data key="d0">Operação Financeira</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">14</data>
+    </node>
+    <node id="ING Direct">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">5</data>
+      <data key="d3">0.029762</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.029762</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.013875</data>
+      <data key="d8">14</data>
+    </node>
+    <node id="Electric Orange">
+      <data key="d0">Operação Financeira</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">14</data>
+    </node>
+    <node id="Sorteio Automatic Saver">
+      <data key="d0">Evento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">14</data>
+    </node>
+    <node id="Orange Savings Account">
+      <data key="d0">Operação Financeira</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">14</data>
+    </node>
+    <node id="Ing Direct">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.005952</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.004098</data>
+      <data key="d8">14</data>
+    </node>
+    <node id="Conta de Poupança Orange">
+      <data key="d0">Operação Financeira</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">14</data>
+    </node>
+    <node id="Sdny_Gm_00006116">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">12</data>
+    </node>
+    <node id="Southern District of New York">
+      <data key="d0">Instituição</data>
+      <data key="d1">Sdny</data>
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.005952</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.00532</data>
+      <data key="d8">12</data>
+    </node>
+    <node id="Capital One, N.A.">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">3</data>
+      <data key="d3">0.017857</data>
+      <data key="d4">0.006451</data>
+      <data key="d5">0.070214</data>
+      <data key="d6">0.133036</data>
+      <data key="d7">0.018732</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="Capital One Services, LLC">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="Chase Paynet">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.066288</data>
+      <data key="d6">0.135993</data>
+      <data key="d7">0.004528</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Mark Lubin">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="6100 Red Hook Quarter B3, St. Thomas">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.066288</data>
+      <data key="d6">0.135993</data>
+      <data key="d7">0.004528</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="PayPal">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.066288</data>
+      <data key="d6">0.135993</data>
+      <data key="d7">0.004528</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Ann M. Rodriquez">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">3</data>
+      <data key="d3">0.017857</data>
+      <data key="d4">0.002352</data>
+      <data key="d5">0.044109</data>
+      <data key="d6">0.02928</data>
+      <data key="d7">0.006278</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="9 East 71st Street">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">3</data>
+      <data key="d3">0.017857</data>
+      <data key="d4">0.004348</data>
+      <data key="d5">0.038441</data>
+      <data key="d6">0.013739</data>
+      <data key="d7">0.006767</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="American Express">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.038176</data>
+      <data key="d6">0.013739</data>
+      <data key="d7">0.005545</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="Rayshawn Campbell">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="Law Enforcement Relations Group">
+      <data key="d0">Organização</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.005952</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.004098</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="MetroPCS">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">7</data>
+    </node>
+    <node id="Darren K. Indyke">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Andrew Farkas">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Jeffrey A. Schantz">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Jes Staley">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Original Trust Agreement">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.063713</data>
+      <data key="d6">0.135993</data>
+      <data key="d7">0.004528</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Amended and Restated Trust Agreement">
+      <data key="d0">Documento</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.063713</data>
+      <data key="d6">0.135993</data>
+      <data key="d7">0.004528</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Harry I. Beller">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">3</data>
+    </node>
+    <node id="James E. Staley">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Sci Jep">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">3</data>
+      <data key="d3">0.017857</data>
+      <data key="d4">0.001758</data>
+      <data key="d5">0.066288</data>
+      <data key="d6">0.135993</data>
+      <data key="d7">0.004528</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="22 Avenue Foch">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">3.6e-05</data>
+      <data key="d5">0.052838</data>
+      <data key="d6">0.063793</data>
+      <data key="d7">0.0048</data>
+      <data key="d8">1</data>
+    </node>
+    <node id="Maple, Inc.">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="Ilhas Virgens Americanas">
+      <data key="d0">País</data>
+      <data key="d1" />
+      <data key="d2">5</data>
+      <data key="d3">0.029762</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.029762</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.010494</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="Nautilus, Inc.">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">3</data>
+      <data key="d3">0.017857</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="Little Saint James">
+      <data key="d0">Local</data>
+      <data key="d1">Little St. James Island</data>
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.005952</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.00369</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="L.S.J., Llc">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">3.6e-05</data>
+      <data key="d5">0.005952</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.00369</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="Delaware">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.007937</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.006013</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="Cypress, Inc.">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="Zorro Ranch">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">7.1e-05</data>
+      <data key="d5">0.005952</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.004098</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="Stanley">
+      <data key="d0">Cidade</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">7.1e-05</data>
+      <data key="d5">0.007937</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.006359</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="Novo México">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.008929</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.008281</data>
+      <data key="d8">0</data>
+    </node>
+    <node id="Laurel, Inc.">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="358 El Brillo Way">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">2</data>
+      <data key="d3">0.011905</data>
+      <data key="d4">7.1e-05</data>
+      <data key="d5">0.005952</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.004098</data>
+      <data key="d8">5</data>
+    </node>
+    <node id="Kcac, Llc">
+      <data key="d0">Empresa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.0</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.002876</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="Nova Jersey">
+      <data key="d0">Local</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.005952</data>
+      <data key="d6">0.0</data>
+      <data key="d7">0.00532</data>
+      <data key="d8">2</data>
+    </node>
+    <node id="Karyna Shuliak">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.066288</data>
+      <data key="d6">0.135993</data>
+      <data key="d7">0.004528</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Jean Luc Brunel">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.066288</data>
+      <data key="d6">0.135993</data>
+      <data key="d7">0.004528</data>
+      <data key="d8">4</data>
+    </node>
+    <node id="Eva Dubin">
+      <data key="d0">Pessoa</data>
+      <data key="d1" />
+      <data key="d2">1</data>
+      <data key="d3">0.005952</data>
+      <data key="d4">0.0</data>
+      <data key="d5">0.066288</data>
+      <data key="d6">0.135993</data>
+      <data key="d7">0.004528</data>
+      <data key="d8">4</data>
+    </node>
+    <edge source="Federal Bureau of Investigation" target="Ghislaine Maxwell">
+      <data key="d9">1.0</data>
+      <data key="d10">INVESTIGATED</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01262782_processado.json</data>
+    </edge>
+    <edge source="Federal Bureau of Investigation" target="Nova York">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.99</data>
+      <data key="d12">EFTA01266023.json</data>
+    </edge>
+    <edge source="Federal Bureau of Investigation" target="United States">
+      <data key="d9">1.0</data>
+      <data key="d10">PART_OF</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266023.json</data>
+    </edge>
+    <edge source="Federal Bureau of Investigation" target="Jeffrey Epstein">
+      <data key="d9">1.0</data>
+      <data key="d10">INVESTIGATED</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266056.json</data>
+    </edge>
+    <edge source="Federal Bureau of Investigation" target="Ann M. Rodriquez">
+      <data key="d9">1.0</data>
+      <data key="d10">INVESTIGATED</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01266062.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="França">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01262782_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="United States">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01262782_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Bradford">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.85</data>
+      <data key="d12">EFTA01262782_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Londres">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Boston">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Nova York">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Miami">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Paris">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Los Angeles">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Tóquio">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Doha">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Montreal">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Sint Maarten">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="West Palm Beach">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Teterboro">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Ottawa">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Veneza">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Rio de Janeiro">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Hong Kong">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Barbados">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Ilhas Virgens Britânicas">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Nice">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Tel Aviv">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Amã">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Ghislaine Maxwell" target="Aeroporto de Luton">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.92</data>
+      <data key="d12">EFTA01265814.json</data>
+    </edge>
+    <edge source="United States" target="Miami">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.99</data>
+      <data key="d12">EFTA01265910_processado.json</data>
+    </edge>
+    <edge source="United States" target="Jeffrey Epstein">
+      <data key="d9">1.0</data>
+      <data key="d10">INVESTIGATED</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265910_processado.json</data>
+    </edge>
+    <edge source="United States" target="Capital One, N.A.">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01266023.json</data>
+    </edge>
+    <edge source="United States District Court for the Southern District of New York" target="Nova York">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01262956_processado.json</data>
+    </edge>
+    <edge source="Nova York" target="United States">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.99</data>
+      <data key="d12">EFTA01266062.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="Mandado de Busca e Apreensão">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01262956_processado.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="Title 18, United States Code">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01262956_processado.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="SLK Designs LLC">
+      <data key="d9">1.0</data>
+      <data key="d10">TRANSFERRED_MONEY_TO</data>
+      <data key="d11">0.99</data>
+      <data key="d12">EFTA01265245_processado.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="Processo Judicial 50-2006-CF-009454-AXXX-MB">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.99</data>
+      <data key="d12">EFTA01265900.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="Processo Judicial 50-2008-CF-009381-AXXX-MB">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.99</data>
+      <data key="d12">EFTA01265900.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="Donald Trump">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265910_processado.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="Bill Clinton">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265910_processado.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="Mansão de Palm Beach">
+      <data key="d9">1.0</data>
+      <data key="d10">OWNS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01265910_processado.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="Mansão de Nova York">
+      <data key="d9">1.0</data>
+      <data key="d10">OWNS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01265910_processado.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="Mansão das Ilhas Virgens">
+      <data key="d9">1.0</data>
+      <data key="d10">OWNS</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01265910_processado.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="Nova York">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01266052.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="Chase Paynet">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.85</data>
+      <data key="d12">EFTA01266056.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="6100 Red Hook Quarter B3, St. Thomas">
+      <data key="d9">1.0</data>
+      <data key="d10">CONNECTED_TO</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01266059_processado.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="PayPal">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266059_processado.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="Original Trust Agreement">
+      <data key="d9">1.0</data>
+      <data key="d10">RESPONSIBLE_FOR</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266357_processado.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="Amended and Restated Trust Agreement">
+      <data key="d9">1.0</data>
+      <data key="d10">RESPONSIBLE_FOR</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266357_processado.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="Sci Jep">
+      <data key="d9">1.0</data>
+      <data key="d10">OWNS</data>
+      <data key="d11">0.99</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="Ghislaine Maxwell">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="Karyna Shuliak">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="Jean Luc Brunel">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Jeffrey Epstein" target="Eva Dubin">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Mandado de Busca e Apreensão" target="Title 18, United States Code">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01262956_processado.json</data>
+    </edge>
+    <edge source="U.S. Customs and Border Protection" target="U.S. Department of Homeland Security">
+      <data key="d9">1.0</data>
+      <data key="d10">PART_OF</data>
+      <data key="d11">0.99</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="U.S. Customs and Border Protection" target="TECS-Person Encounter List">
+      <data key="d9">1.0</data>
+      <data key="d10">RESPONSIBLE_FOR</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="TECS-Person Encounter List" target="Ghislaine Maxwell">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01263213_processado.json</data>
+    </edge>
+    <edge source="Paris" target="França">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.99</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="West Palm Beach" target="Flórida">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.99</data>
+      <data key="d12">EFTA01265910_processado.json</data>
+    </edge>
+    <edge source="Peter Simmer" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.99</data>
+      <data key="d12">EFTA01264394.json</data>
+    </edge>
+    <edge source="At&amp;T" target="North Palm Beach">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264394.json</data>
+    </edge>
+    <edge source="At&amp;T" target="Força-Tarefa de Exploração Infantil e Tráfico Humano">
+      <data key="d9">1.0</data>
+      <data key="d10">COMMUNICATED_WITH</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01264394.json</data>
+    </edge>
+    <edge source="At&amp;T" target="Matter ID: 2750182">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01264405.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002310" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002311" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002314" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002315" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002316" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002317" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002319" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002322" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Efta_00116408" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002326" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002329" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002332" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002334" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002335" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002336" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002339" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002341" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002342" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002344" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002346" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002347" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002352" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002354" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002359" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002365" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002375" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00002378" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="Efta_00116451" target="At&amp;T">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01264521.json</data>
+    </edge>
+    <edge source="SLK Designs LLC" target="Nova York">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.99</data>
+      <data key="d12">EFTA01265245_processado.json</data>
+    </edge>
+    <edge source="SLK Designs LLC" target="Citibank, N.A.">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01265245_processado.json</data>
+    </edge>
+    <edge source="SLK Designs LLC" target="Adp">
+      <data key="d9">1.0</data>
+      <data key="d10">TRANSFERRED_MONEY_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265245_processado.json</data>
+    </edge>
+    <edge source="SLK Designs LLC" target="Oxford Health">
+      <data key="d9">1.0</data>
+      <data key="d10">TRANSFERRED_MONEY_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265245_processado.json</data>
+    </edge>
+    <edge source="SLK Designs LLC" target="The Hartford">
+      <data key="d9">1.0</data>
+      <data key="d10">TRANSFERRED_MONEY_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265245_processado.json</data>
+    </edge>
+    <edge source="SLK Designs LLC" target="CT Corporation">
+      <data key="d9">1.0</data>
+      <data key="d10">TRANSFERRED_MONEY_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265245_processado.json</data>
+    </edge>
+    <edge source="Citibank, N.A." target="Citigroup Inc.">
+      <data key="d9">1.0</data>
+      <data key="d10">PART_OF</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265245_processado.json</data>
+    </edge>
+    <edge source="Nikv. Itaas" target="United States">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265479.json</data>
+    </edge>
+    <edge source="Nikv. Itaas" target="Experian Information Solutions, Inc.">
+      <data key="d9">1.0</data>
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01265479.json</data>
+    </edge>
+    <edge source="Maurene Comey" target="United States">
+      <data key="d9">1.0</data>
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01265479.json</data>
+    </edge>
+    <edge source="Maurene Comey" target="Intimação do Grande Júri">
+      <data key="d9">1.0</data>
+      <data key="d10">RESPONSIBLE_FOR</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265479.json</data>
+    </edge>
+    <edge source="Intimação do Grande Júri" target="Experian Information Solutions, Inc.">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01265479.json</data>
+    </edge>
+    <edge source="Intimação do Grande Júri" target="Southwest Airlines Co.">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.92</data>
+      <data key="d12">EFTA01266013.json</data>
+    </edge>
+    <edge source="Gmax1" target="Google">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01265485.json</data>
+    </edge>
+    <edge source="Conta Google 602199682141" target="Gmax1">
+      <data key="d9">1.0</data>
+      <data key="d10">CONNECTED_TO</data>
+      <data key="d11">0.85</data>
+      <data key="d12">EFTA01265485.json</data>
+    </edge>
+    <edge source="YouTube" target="Google">
+      <data key="d9">1.0</data>
+      <data key="d10">PART_OF</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265485.json</data>
+    </edge>
+    <edge source="Segurança Global e Investigações" target="MoneyGram Payment Systems Inc.">
+      <data key="d9">1.0</data>
+      <data key="d10">PART_OF</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265800_processado.json</data>
+    </edge>
+    <edge source="CT Corp" target="MoneyGram Payment Systems Inc.">
+      <data key="d9">1.0</data>
+      <data key="d10">REPRESENTS</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01265800_processado.json</data>
+    </edge>
+    <edge source="CT Corp" target="Wolters Kluwer">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265800_processado.json</data>
+    </edge>
+    <edge source="MoneyGram Online" target="MoneyGram Payment Systems Inc.">
+      <data key="d9">1.0</data>
+      <data key="d10">PART_OF</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265800_processado.json</data>
+    </edge>
+    <edge source="MoneyGram Online" target="Brooklyn Center">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01265800_processado.json</data>
+    </edge>
+    <edge source="Brooklyn Center" target="Minnesota">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.99</data>
+      <data key="d12">EFTA01265800_processado.json</data>
+    </edge>
+    <edge source="Minnesota" target="United States">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.99</data>
+      <data key="d12">EFTA01265800_processado.json</data>
+    </edge>
+    <edge source="Larry Visoski" target="Aeroporto de Teterboro">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265814.json</data>
+    </edge>
+    <edge source="Larry Visoski" target="Aeroporto de Newark">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265814.json</data>
+    </edge>
+    <edge source="Lance Calloway" target="Aeroporto de Newark">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265814.json</data>
+    </edge>
+    <edge source="Lance Calloway" target="Aeroporto de Teterboro">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265814.json</data>
+    </edge>
+    <edge source="John Roberts" target="Aeroporto de Teterboro">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01265814.json</data>
+    </edge>
+    <edge source="Emarea Nowak" target="Bedford">
+      <data key="d9">1.0</data>
+      <data key="d10">TRAVELED_TO</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01265814.json</data>
+    </edge>
+    <edge source="Processo Judicial 50-2006-CF-009454-AXXX-MB" target="Clerk &amp; Comptroller Palm Beach County">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265900.json</data>
+    </edge>
+    <edge source="Processo Judicial 50-2008-CF-009381-AXXX-MB" target="Clerk &amp; Comptroller Palm Beach County">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265900.json</data>
+    </edge>
+    <edge source="Clerk &amp; Comptroller Palm Beach County" target="Palm Beach County">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265900.json</data>
+    </edge>
+    <edge source="Alexander R. Acosta" target="United States">
+      <data key="d9">1.0</data>
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.99</data>
+      <data key="d12">EFTA01265910_processado.json</data>
+    </edge>
+    <edge source="Kenneth A. Marra" target="Tribunal Distrital Federal de West Palm Beach">
+      <data key="d9">1.0</data>
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.99</data>
+      <data key="d12">EFTA01265910_processado.json</data>
+    </edge>
+    <edge source="Tribunal Distrital Federal de West Palm Beach" target="West Palm Beach">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.99</data>
+      <data key="d12">EFTA01265910_processado.json</data>
+    </edge>
+    <edge source="Mansão de Palm Beach" target="Palm Beach">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265910_processado.json</data>
+    </edge>
+    <edge source="Mansão de Nova York" target="Nova York">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265910_processado.json</data>
+    </edge>
+    <edge source="Mansão das Ilhas Virgens" target="Ilhas Virgens">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265910_processado.json</data>
+    </edge>
+    <edge source="Palm Beach" target="Flórida">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Jack Scarola" target="Jane Doe 1">
+      <data key="d9">1.0</data>
+      <data key="d10">REPRESENTS</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265910_processado.json</data>
+    </edge>
+    <edge source="Jack Scarola" target="Jane Doe 2">
+      <data key="d9">1.0</data>
+      <data key="d10">REPRESENTS</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265910_processado.json</data>
+    </edge>
+    <edge source="Bradley J. Edwards" target="Jane Doe 1">
+      <data key="d9">1.0</data>
+      <data key="d10">REPRESENTS</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265910_processado.json</data>
+    </edge>
+    <edge source="Bradley J. Edwards" target="Jane Doe 2">
+      <data key="d9">1.0</data>
+      <data key="d10">REPRESENTS</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265910_processado.json</data>
+    </edge>
+    <edge source="Ben Sasse" target="United States">
+      <data key="d9">1.0</data>
+      <data key="d10">MEMBER_OF</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01265910_processado.json</data>
+    </edge>
+    <edge source="Ben Sasse" target="Nebraska">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01265910_processado.json</data>
+    </edge>
+    <edge source="Ren Nathan" target="Southwest Airlines Co.">
+      <data key="d9">1.0</data>
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.99</data>
+      <data key="d12">EFTA01266013.json</data>
+    </edge>
+    <edge source="Ren Nathan" target="Intimação do Grande Júri">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01266013.json</data>
+    </edge>
+    <edge source="Southwest Airlines Co." target="Dallas">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01266013.json</data>
+    </edge>
+    <edge source="301 E 66th St" target="Nova York">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266014.json</data>
+    </edge>
+    <edge source="Conta Poupança Orange" target="ING Direct">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01266014.json</data>
+    </edge>
+    <edge source="Conta Poupança Orange" target="Ing Direct">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266018.json</data>
+    </edge>
+    <edge source="Electric Orange" target="ING Direct">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01266014.json</data>
+    </edge>
+    <edge source="Sorteio Automatic Saver" target="ING Direct">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.85</data>
+      <data key="d12">EFTA01266014.json</data>
+    </edge>
+    <edge source="Orange Savings Account" target="ING Direct">
+      <data key="d9">1.0</data>
+      <data key="d10">PART_OF</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266017.json</data>
+    </edge>
+    <edge source="Conta de Poupança Orange" target="ING Direct">
+      <data key="d9">1.0</data>
+      <data key="d10">CONNECTED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266019.json</data>
+    </edge>
+    <edge source="Sdny_Gm_00006116" target="Southern District of New York">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01266019.json</data>
+    </edge>
+    <edge source="Capital One, N.A." target="Federal Bureau of Investigation">
+      <data key="d9">1.0</data>
+      <data key="d10">COMMUNICATED_WITH</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01266023.json</data>
+    </edge>
+    <edge source="Capital One Services, LLC" target="Capital One, N.A.">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266023.json</data>
+    </edge>
+    <edge source="Mark Lubin" target="Federal Bureau of Investigation">
+      <data key="d9">1.0</data>
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01266059_processado.json</data>
+    </edge>
+    <edge source="Mark Lubin" target="Jeffrey Epstein">
+      <data key="d9">1.0</data>
+      <data key="d10">INVESTIGATED</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266059_processado.json</data>
+    </edge>
+    <edge source="Ann M. Rodriquez" target="9 East 71st Street">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266062.json</data>
+    </edge>
+    <edge source="Ann M. Rodriquez" target="American Express">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266062.json</data>
+    </edge>
+    <edge source="9 East 71st Street" target="Nova York">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01266062.json</data>
+    </edge>
+    <edge source="Rayshawn Campbell" target="United States">
+      <data key="d9">1.0</data>
+      <data key="d10">WORKS_FOR</data>
+      <data key="d11">0.99</data>
+      <data key="d12">EFTA01266117.json</data>
+    </edge>
+    <edge source="Rayshawn Campbell" target="Law Enforcement Relations Group">
+      <data key="d9">1.0</data>
+      <data key="d10">MEMBER_OF</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01266117.json</data>
+    </edge>
+    <edge source="Law Enforcement Relations Group" target="United States">
+      <data key="d9">1.0</data>
+      <data key="d10">PART_OF</data>
+      <data key="d11">0.92</data>
+      <data key="d12">EFTA01266117.json</data>
+    </edge>
+    <edge source="MetroPCS" target="United States">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.85</data>
+      <data key="d12">EFTA01266117.json</data>
+    </edge>
+    <edge source="Darren K. Indyke" target="Jeffrey Epstein">
+      <data key="d9">1.0</data>
+      <data key="d10">MANAGES</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266357_processado.json</data>
+    </edge>
+    <edge source="Andrew Farkas" target="Jeffrey Epstein">
+      <data key="d9">1.0</data>
+      <data key="d10">MANAGES</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266357_processado.json</data>
+    </edge>
+    <edge source="Jeffrey A. Schantz" target="Jeffrey Epstein">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01266357_processado.json</data>
+    </edge>
+    <edge source="Jes Staley" target="Jeffrey Epstein">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.85</data>
+      <data key="d12">EFTA01266357_processado.json</data>
+    </edge>
+    <edge source="Original Trust Agreement" target="Jeffrey Epstein">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266357_processado.json</data>
+    </edge>
+    <edge source="Amended and Restated Trust Agreement" target="Jeffrey Epstein">
+      <data key="d9">1.0</data>
+      <data key="d10">RELATED_TO</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266357_processado.json</data>
+    </edge>
+    <edge source="Harry I. Beller" target="Nova York">
+      <data key="d9">1.0</data>
+      <data key="d10">ASSOCIATED_WITH</data>
+      <data key="d11">0.9</data>
+      <data key="d12">EFTA01266357_processado.json</data>
+    </edge>
+    <edge source="James E. Staley" target="Jeffrey Epstein">
+      <data key="d9">1.0</data>
+      <data key="d10">MANAGES</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Sci Jep" target="França">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Sci Jep" target="22 Avenue Foch">
+      <data key="d9">1.0</data>
+      <data key="d10">OWNS</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="22 Avenue Foch" target="Paris">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Maple, Inc." target="Ilhas Virgens Americanas">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Maple, Inc." target="9 East 71st Street">
+      <data key="d9">1.0</data>
+      <data key="d10">OWNS</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Nautilus, Inc." target="Ilhas Virgens Americanas">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Nautilus, Inc." target="Little Saint James">
+      <data key="d9">1.0</data>
+      <data key="d10">OWNS</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Nautilus, Inc." target="L.S.J., Llc">
+      <data key="d9">1.0</data>
+      <data key="d10">OWNS</data>
+      <data key="d11">0.99</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Little Saint James" target="Ilhas Virgens Americanas">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="L.S.J., Llc" target="Delaware">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Cypress, Inc." target="Ilhas Virgens Americanas">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Cypress, Inc." target="Zorro Ranch">
+      <data key="d9">1.0</data>
+      <data key="d10">OWNS</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Zorro Ranch" target="Stanley">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Stanley" target="Novo México">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Laurel, Inc." target="Ilhas Virgens Americanas">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Laurel, Inc." target="358 El Brillo Way">
+      <data key="d9">1.0</data>
+      <data key="d10">OWNS</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="358 El Brillo Way" target="Palm Beach">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.98</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+    <edge source="Kcac, Llc" target="Nova Jersey">
+      <data key="d9">1.0</data>
+      <data key="d10">LOCATED_IN</data>
+      <data key="d11">0.95</data>
+      <data key="d12">EFTA01266359.json</data>
+    </edge>
+  </graph>
+</graphml>

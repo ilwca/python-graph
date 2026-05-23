@@ -8,5 +8,7 @@ dependencies = [
     "matplotlib>=3.10.9",
     "networkx>=3.6.1",
     "pydantic>=2.13.4",
+    "python-louvain>=0.16",
     "pyvis>=0.3.2",
+    "scipy>=1.17.1",
 ]

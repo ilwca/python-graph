@@ -1,12 +1,12 @@
 # python-graph
 
-Pipeline de extração de conhecimento e construção de grafos semânticos a partir de documentos de texto, usando LLMs (Gemini ou GPT-4o) para identificar entidades e relações.
+Pipeline de extração de conhecimento, construção e análise de grafos semânticos a partir de documentos de texto, com interface conversacional LLM via function calling.
 
 ---
 
 ## Visão geral
 
-O pipeline opera em duas etapas independentes:
+O sistema opera em três camadas independentes:
 
 ```
 Documentos .md
@@ -15,11 +15,18 @@ Documentos .md
   [main.py]  ──── LLM (Gemini ou GPT-4o) ────▶  JSON de relações (saida_json/)
       │
       ▼
- [graph.py]  ──── pipeline de 10 etapas ──────▶  Grafo (grafos/)
+ [graph.py]  ──── pipeline de 10 etapas ──────▶  Grafo base (grafos/)
+      │
+      ▼
+   [kg/]     ──── NetworkX analítico ──────────▶  Grafo analítico + métricas + comunidades
+      │
+      ▼
+[llm_interface.py] ── function calling ────────▶  Interface conversacional em linguagem natural
 ```
 
 1. **`main.py`** — lê arquivos `.md`, envia o conteúdo a uma LLM e extrai relações estruturadas no formato `(sujeito, predicado, objeto)`, salvando como JSON.
 2. **`graph.py`** — consome os JSONs, valida, normaliza, deduplica e constrói um grafo de conhecimento exportado em múltiplos formatos.
+3. **`kg/`** — camada analítica sobre o grafo: métricas de centralidade, detecção de comunidades, consultas relacionais e interface de conversação com LLM via function calling.
 
 ---
 
@@ -27,14 +34,27 @@ Documentos .md
 
 ```
 .
-├── main.py           # Extração de relações via LLM
-├── graph.py          # Construção e exportação do grafo
-├── pyproject.toml    # Dependências do projeto
-├── .env              # Chaves de API (não commitado)
-├── .env.example      # Modelo de variáveis de ambiente
-├── saida_json/       # JSONs brutos gerados pelo main.py
-├── saida/            # JSONs de entrada para o graph.py
-├── grafos/           # Saídas do grafo (GEXF, GraphML, JSON, HTML)
+├── main.py               # Extração de relações via LLM
+├── graph.py              # Construção e exportação do grafo base
+├── pyproject.toml        # Dependências do projeto
+├── .env                  # Chaves de API (não commitado)
+├── .env.example          # Modelo de variáveis de ambiente
+│
+├── kg/                   # Camada analítica NetworkX
+│   ├── __init__.py       # Exporta KGRuntime e KGInterface
+│   ├── graph_builder.py  # Constrói MultiDiGraph dos JSONs tratados
+│   ├── metrics.py        # Centralidades (degree, betweenness, closeness, eigenvector, pagerank)
+│   ├── communities.py    # Detecção de comunidades via Louvain
+│   ├── queries.py        # KGQuery — interface de consulta relacional
+│   ├── exporters.py      # Exportação analítica (GEXF, GraphML, Pickle)
+│   ├── graph_runtime.py  # KGRuntime — orquestrador do pipeline analítico
+│   └── llm_interface.py  # KGInterface — interface LLM via function calling
+│
+├── saida_json/           # JSONs brutos gerados pelo main.py
+├── saida/                # JSONs normalizados (entrada para kg/)
+├── grafos/               # Saídas exportadas
+│   ├── graph.*           # Grafo base (graph.py): GEXF, GraphML, JSON, HTML
+│   └── kg_analytic.*     # Grafo analítico (kg/): GEXF, GraphML, Pickle
 └── logs/
     ├── processados.json        # Controle de arquivos já processados
     ├── pipeline.log            # Log detalhado do pipeline
@@ -46,7 +66,7 @@ Documentos .md
 
 ## Pré-requisitos
 
-- Python 3.13+
+- Python 3.12+
 - [`uv`](https://docs.astral.sh/uv/) (gerenciador de pacotes)
 
 Instale as dependências:
@@ -63,11 +83,13 @@ As dependências declaradas em `pyproject.toml` são:
 | `matplotlib` | Paleta de cores dos nós |
 | `pydantic` | Validação de esquema das relações |
 | `pyvis` | Exportação HTML interativa |
+| `python-louvain` | Detecção de comunidades (Louvain) |
+| `scipy` | Dependência de algoritmos de centralidade |
 
 Instale também as dependências das APIs:
 
 ```bash
-uv add google-generativeai openai python-dotenv
+uv add google-genai openai python-dotenv
 ```
 
 ---
@@ -182,12 +204,118 @@ FINANCED           MANAGES            REPRESENTS         CONNECTED_TO
 
 ---
 
+## Camada Analítica (kg/)
+
+A camada `kg/` constrói um grafo analítico enriquecido sobre os mesmos JSONs do `graph.py`, adicionando métricas de rede, detecção de comunidades e uma interface de consulta programática.
+
+### Uso rápido
+
+```python
+from kg import KGRuntime
+
+rt = KGRuntime()          # constrói grafo, calcula métricas, detecta comunidades, exporta
+rt.print_summary()        # resumo: nós, arestas, comunidades, top hubs
+
+q = rt.query              # interface de consulta (KGQuery)
+
+# Busca de entidades
+q.search_entity("Epstein")                    # busca fuzzy por nome/alias
+q.get_entity("Jeffrey Epstein")              # metadados completos + métricas
+
+# Relações
+q.get_relations("Jeffrey Epstein", direction="out")
+q.get_relations_between("Jeffrey Epstein", "Ghislaine Maxwell")
+
+# Caminhos
+q.shortest_path("Jeffrey Epstein", "Ghislaine Maxwell")
+q.all_simple_paths("FBI", "Ghislaine Maxwell", cutoff=5)
+
+# Vizinhança
+q.neighbors("Jeffrey Epstein")
+q.ego_graph("Jeffrey Epstein", radius=2)
+q.descendants("Jeffrey Epstein")
+
+# Comunidades
+q.get_community("Jeffrey Epstein")
+q.central_nodes(metric="pagerank", n=10)
+q.central_nodes(metric="betweenness_centrality", entity_type="Pessoa")
+
+# Estatísticas e tipos
+q.get_graph_stats()
+q.find_by_type("Organização")
+q.get_all_relation_types()
+
+# Contexto para LLM (GraphRAG)
+q.llm_context("Jeffrey Epstein")
+```
+
+O `KGRuntime` usa cache via Pickle: na primeira execução constrói e exporta o grafo; nas seguintes carrega em milissegundos.
+
+---
+
+## Interface LLM + GraphRAG (KGInterface)
+
+`KGInterface` é uma interface conversacional que conecta perguntas em linguagem natural ao Knowledge Graph via **function calling**. A LLM recebe a pergunta, seleciona e executa ferramentas do grafo, e formata a resposta de forma analítica.
+
+### Fluxo
+
+```
+Usuário → LLM (interpreta + seleciona ferramenta)
+        → KGQuery (executa no grafo NetworkX)
+        → LLM (formata resposta em linguagem natural)
+        → Resposta contextualizada
+```
+
+### Uso
+
+```python
+from kg import KGRuntime, KGInterface
+
+rt    = KGRuntime()
+iface = KGInterface(rt.query, provider="openai")   # ou provider="gemini"
+
+print(iface.chat("Qual é o nó mais central do grafo?"))
+print(iface.chat("Como Jeffrey Epstein se conecta a Ghislaine Maxwell?"))
+print(iface.chat("Liste as organizações mais influentes."))
+print(iface.chat("Quem são os intermediários estratégicos do grafo?"))
+
+iface.reset()   # limpa histórico de conversa
+```
+
+### Ferramentas disponíveis para a LLM
+
+| Ferramenta | Descrição |
+|---|---|
+| `search_entity` | Busca fuzzy de entidades por nome |
+| `get_entity_info` | Metadados completos + métricas de uma entidade |
+| `get_graph_stats` | Estatísticas globais (nós, arestas, comunidades, densidade) |
+| `get_central_nodes` | Top entidades por métrica (pagerank, betweenness, etc.) |
+| `find_path` | Caminho mais curto entre duas entidades |
+| `get_neighbors` | Predecessores e sucessores diretos |
+| `get_community` | Membros do cluster/comunidade de uma entidade |
+| `get_relations` | Todas as relações de uma entidade (entrada/saída) |
+| `get_relations_between` | Relações diretas entre dois nós específicos |
+| `find_by_type` | Lista entidades por tipo (Pessoa, Organização, etc.) |
+| `get_llm_context` | Contexto estrutural enriquecido (relações + comunidade + ego_graph) |
+
+### Métricas — como a LLM as interpreta
+
+| Métrica | Significado |
+|---|---|
+| PageRank alto | Entidade influente indiretamente (muitas referências chegam até ela) |
+| Betweenness alto | Broker relacional: intermediário entre grupos distintos |
+| Degree alto | Hub: entidade com muitas conexões diretas |
+| Closeness alto | Entidade estruturalmente próxima do centro do grafo |
+
+---
+
 ## Modelos utilizados
 
-| Provider | Modelo | Flag |
+| Provider | Modelo | Flag / parâmetro |
 |---|---|---|
-| Google Gemini | `gemini-2.0-flash` | `--provider gemini` (padrão) |
+| Google Gemini | `gemini-2.0-flash` | `--provider gemini` (padrão em main.py) |
 | OpenAI | `gpt-4o` | `--provider openai` |
+| KGInterface | configurável | `KGInterface(query, provider="openai", model="gpt-4o")` |
 
 ---
 

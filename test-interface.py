@@ -22,7 +22,7 @@ except Exception:
 
 # ── Inicializa interface ──────────────────────────────────────────────────────
 try:
-    iface = KGInterface(rt.query, provider="openai", verbose=True)
+    iface = KGInterface(rt.query, provider="openrouter", verbose=True)
     print("[OK] KGInterface inicializada (provider=openai)")
 except Exception:
     print("[ERRO] Falha ao inicializar KGInterface:")

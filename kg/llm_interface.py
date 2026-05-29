@@ -7,7 +7,7 @@ Fluxo:
             → LLM (formata resposta em linguagem natural)
             → Resposta final ao usuário
 
-Suporta: OpenAI (gpt-4o) e Gemini (gemini-2.0-flash)
+Suporta: OpenAI (gpt-4o), Gemini (gemini-2.0-flash) e Anthropic (claude-opus-4-7)
 """
 from __future__ import annotations
 
@@ -339,6 +339,22 @@ def _serialize(result: Any) -> str:
 # GEMINI TOOL BUILDER
 # ─────────────────────────────────────────────────────────────────────────────
 
+def _build_anthropic_tools() -> list[dict]:
+    """Converte _TOOLS_OPENAI para formato Anthropic (input_schema)."""
+    result = []
+    for tool in _TOOLS_OPENAI:
+        fn = tool["function"]
+        result.append({
+            "name": fn["name"],
+            "description": fn["description"],
+            "input_schema": fn["parameters"],
+        })
+    return result
+
+
+_TOOLS_ANTHROPIC: list[dict] = _build_anthropic_tools()
+
+
 def _build_gemini_tool():
     """Converte _TOOLS_OPENAI para o formato google.genai.types.Tool."""
     from google.genai import types
@@ -392,7 +408,7 @@ class KGInterface:
         from kg.llm_interface import KGInterface
 
         rt    = KGRuntime()
-        iface = KGInterface(rt.query, provider="openai")
+        iface = KGInterface(rt.query, provider="anthropic")
         print(iface.chat("Qual é o nó mais central do grafo?"))
         print(iface.chat("Como Jeffrey Epstein se conecta a Ghislaine Maxwell?"))
         iface.reset()  # limpa histórico de conversa
@@ -403,7 +419,7 @@ class KGInterface:
     def __init__(
         self,
         query: KGQuery,
-        provider: str = "gemini",
+        provider: str = "anthropic",
         model: str | None = None,
         verbose: bool = False,
     ) -> None:
@@ -418,6 +434,19 @@ class KGInterface:
             self._openai = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
             self._model = model or "gpt-4o"
 
+        elif self._provider == "anthropic":
+            import anthropic
+            self._anthropic = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
+            self._model = model or "claude-opus-4-7"
+
+        elif self._provider == "openrouter":
+            from openai import OpenAI
+            self._openai = OpenAI(
+                api_key=os.getenv("OPEN_ROUTER_API_KEY"),
+                base_url="https://openrouter.ai/api/v1",
+            )
+            self._model = model or "google/gemma-4-31b-it:free"
+
         elif self._provider == "gemini":
             import google.genai as genai
             from google.genai import types as gtypes
@@ -429,7 +458,7 @@ class KGInterface:
 
         else:
             raise ValueError(
-                f"Provider '{provider}' não suportado. Use 'openai' ou 'gemini'."
+                f"Provider '{provider}' não suportado. Use 'openai', 'anthropic', 'openrouter' ou 'gemini'."
             )
 
     # ──────────────────────────────────────────────────────────────────────
@@ -438,8 +467,10 @@ class KGInterface:
 
     def chat(self, user_input: str) -> str:
         """Envia mensagem e retorna resposta em linguagem natural."""
-        if self._provider == "openai":
+        if self._provider in ("openai", "openrouter"):
             return self._openai_loop(user_input)
+        if self._provider == "anthropic":
+            return self._claude_loop(user_input)
         return self._gemini_loop(user_input)
 
     def reset(self) -> None:
@@ -533,6 +564,53 @@ class KGInterface:
                     "tool_call_id": tc.id,
                     "content":      tool_result,
                 })
+
+        return "Não foi possível concluir a consulta após múltiplas tentativas."
+
+    # ──────────────────────────────────────────────────────────────────────
+    # Anthropic (Claude) loop
+    # ──────────────────────────────────────────────────────────────────────
+
+    def _claude_loop(self, user_input: str) -> str:
+        messages: list[dict] = []
+
+        for turn in self._history:
+            messages.append({"role": turn["role"], "content": turn["content"]})
+
+        messages.append({"role": "user", "content": user_input})
+
+        for _ in range(self._MAX_TOOL_ROUNDS):
+            response = self._anthropic.messages.create(
+                model=self._model,
+                max_tokens=16000,
+                system=_SYSTEM_PROMPT,
+                tools=_TOOLS_ANTHROPIC,
+                messages=messages,
+            )
+
+            tool_blocks = [b for b in response.content if b.type == "tool_use"]
+            text_blocks  = [b for b in response.content if b.type == "text"]
+
+            if not tool_blocks:
+                answer = text_blocks[0].text if text_blocks else ""
+                self._history.append({"role": "user",      "content": user_input})
+                self._history.append({"role": "assistant", "content": answer})
+                return answer
+
+            # Adiciona turno do assistente (pode conter texto + tool_use)
+            messages.append({"role": "assistant", "content": response.content})
+
+            # Executa ferramentas e empacota resultados num único turno de usuário
+            tool_results = []
+            for tb in tool_blocks:
+                tool_result = self._execute_tool(tb.name, tb.input)
+                tool_results.append({
+                    "type":        "tool_result",
+                    "tool_use_id": tb.id,
+                    "content":     tool_result,
+                })
+
+            messages.append({"role": "user", "content": tool_results})
 
         return "Não foi possível concluir a consulta após múltiplas tentativas."
 

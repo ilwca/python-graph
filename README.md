@@ -22,6 +22,9 @@ Documentos .md
       │
       ▼
 [llm_interface.py] ── function calling ────────▶  Interface conversacional em linguagem natural
+      │
+      ▼
+  [chat.py]  ──── loop interativo ─────────────▶  Terminal (perguntas em linguagem natural)
 ```
 
 1. **`main.py`** — lê arquivos `.md`, envia o conteúdo a uma LLM e extrai relações estruturadas no formato `(sujeito, predicado, objeto)`, salvando como JSON.
@@ -36,6 +39,7 @@ Documentos .md
 .
 ├── main.py               # Extração de relações via LLM
 ├── graph.py              # Construção e exportação do grafo base
+├── chat.py               # Loop interativo de consulta via LLM
 ├── pyproject.toml        # Dependências do projeto
 ├── .env                  # Chaves de API (não commitado)
 ├── .env.example          # Modelo de variáveis de ambiente
@@ -107,11 +111,15 @@ Preencha com suas chaves:
 ```env
 GEMINI_API_KEY="sua-chave-aqui"
 GPT_API_KEY="sua-chave-aqui"
+ANTHROPIC_API_KEY="sua-chave-aqui"
+OPEN_ROUTER_API_KEY="sua-chave-aqui"
 ```
 
 Onde obter as chaves:
 - **Gemini**: [aistudio.google.com/apikey](https://aistudio.google.com/apikey)
 - **OpenAI**: [platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+- **Anthropic**: [console.anthropic.com/settings/keys](https://console.anthropic.com/settings/keys)
+- **OpenRouter**: [openrouter.ai/settings/keys](https://openrouter.ai/settings/keys)
 
 > O arquivo `.env` está no `.gitignore` e nunca será commitado.
 
@@ -306,6 +314,50 @@ iface.reset()   # limpa histórico de conversa
 | Betweenness alto | Broker relacional: intermediário entre grupos distintos |
 | Degree alto | Hub: entidade com muitas conexões diretas |
 | Closeness alto | Entidade estruturalmente próxima do centro do grafo |
+
+---
+
+## Chat interativo (`chat.py`)
+
+`chat.py` é o ponto de entrada para consultas em linguagem natural ao Knowledge Graph via terminal. Carrega o grafo, inicializa a interface LLM e mantém um loop de perguntas e respostas com histórico de conversa.
+
+### Uso
+
+```bash
+# Provider padrão (OpenRouter, modelo gratuito)
+python chat.py
+
+# Outros providers
+python chat.py --provider anthropic
+python chat.py --provider openai
+python chat.py --provider gemini
+
+# Modelo específico
+python chat.py --provider openrouter --model "meta-llama/llama-3.3-70b-instruct:free"
+
+# Exibir chamadas de ferramenta e dados retornados
+python chat.py --verbose
+```
+
+### Comandos durante a sessão
+
+| Comando | Ação |
+|---|---|
+| `/stats` | Exibe estatísticas do grafo (nós, arestas, comunidades, densidade) |
+| `/reset` | Limpa o histórico de conversa |
+| `/modelo` | Exibe o provider e modelo em uso |
+| `sair` | Encerra a sessão |
+
+### Providers e modelos padrão
+
+| Provider | Modelo padrão |
+|---|---|
+| `openrouter` | `google/gemma-4-31b-it:free` |
+| `openai` | `gpt-4o` |
+| `anthropic` | `claude-opus-4-7` |
+| `gemini` | `gemini-2.0-flash` |
+
+> **OpenRouter** oferece acesso gratuito a diversos modelos. Modelos com suporte a function calling e sufixo `:free` funcionam com este sistema. Caso um modelo retorne erro 429 (rate limit), troque pelo flag `--model`.
 
 ---
 

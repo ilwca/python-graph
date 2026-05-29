@@ -297,6 +297,80 @@ class KGQuery:
         return list(result.values())
 
     # ------------------------------------------------------------------
+    # Estatísticas globais
+    # ------------------------------------------------------------------
+
+    def get_graph_stats(self) -> dict[str, Any]:
+        """Retorna estatísticas globais do grafo."""
+        G = self._G
+        communities = {d.get("community_id", -1) for _, d in G.nodes(data=True)}
+        relation_counts: dict[str, int] = {}
+        for _, _, data in G.edges(data=True):
+            rel = data.get("relation", "")
+            relation_counts[rel] = relation_counts.get(rel, 0) + 1
+        return {
+            "nodes": G.number_of_nodes(),
+            "edges": G.number_of_edges(),
+            "communities": len(communities),
+            "relation_types": len(relation_counts),
+            "top_relations": sorted(
+                relation_counts.items(), key=lambda x: x[1], reverse=True
+            )[:10],
+            "density": round(nx.density(G), 6),
+        }
+
+    def find_by_type(self, entity_type: str) -> list[dict[str, Any]]:
+        """Retorna todas as entidades de um determinado tipo, ordenadas por PageRank."""
+        et = entity_type.strip().lower()
+        results = []
+        for node, data in self._G.nodes(data=True):
+            if data.get("entity_type", "").lower() == et:
+                results.append({
+                    "node": node,
+                    "pagerank": data.get("pagerank", 0.0),
+                    "degree": data.get("degree", 0),
+                    "community_id": data.get("community_id", -1),
+                })
+        return sorted(results, key=lambda x: x["pagerank"], reverse=True)
+
+    def get_all_relation_types(self) -> list[dict[str, Any]]:
+        """Retorna todos os tipos de relação existentes no grafo com suas contagens."""
+        counts: dict[str, int] = {}
+        for _, _, data in self._G.edges(data=True):
+            rel = data.get("relation", "")
+            counts[rel] = counts.get(rel, 0) + 1
+        return sorted(
+            [{"relation": r, "count": c} for r, c in counts.items()],
+            key=lambda x: x["count"],
+            reverse=True,
+        )
+
+    def get_relations_between(self, entity_a: str, entity_b: str) -> list[RelationInfo]:
+        """Retorna todas as relações diretas entre duas entidades (em qualquer direção)."""
+        results: list[RelationInfo] = []
+        if self._G.has_edge(entity_a, entity_b):
+            for data in self._G[entity_a][entity_b].values():
+                results.append(RelationInfo(
+                    source=entity_a,
+                    target=entity_b,
+                    relation=data.get("relation", ""),
+                    confidence=data.get("confidence", 0.0),
+                    source_file=data.get("source_file", ""),
+                    weight=data.get("weight", 1.0),
+                ))
+        if self._G.has_edge(entity_b, entity_a):
+            for data in self._G[entity_b][entity_a].values():
+                results.append(RelationInfo(
+                    source=entity_b,
+                    target=entity_a,
+                    relation=data.get("relation", ""),
+                    confidence=data.get("confidence", 0.0),
+                    source_file=data.get("source_file", ""),
+                    weight=data.get("weight", 1.0),
+                ))
+        return results
+
+    # ------------------------------------------------------------------
     # Nós centrais
     # ------------------------------------------------------------------
 
